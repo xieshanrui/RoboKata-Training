@@ -1,0 +1,54 @@
+L515:
+  fovy: 45
+  w: 320
+  h: 180
+
+Large_L515:
+  fovy: 45
+  w: 640
+  h: 360
+
+D435:
+  fovy: 37
+  w: 320
+  h: 240
+
+Large_D435:
+  fovy: 37
+  w: 640
+  h: 480
+
+# Opt-in RoboICL pure-pick view. Virtual optics, not a hardware calibration.
+# Retain the native Franka mount; avoid clipping objects close to the fingers.
+ROBOICL_PICK_WRIST_V1:
+  fovy: 88
+  w: 224
+  h: 224
+  near: 0.005
+  far: 100
+
+# RoboKata training/evaluation wrist view. Centre the optical origin on the
+# jaw symmetry plane and move it 15 mm forward; retain the native orientation.
+ROBOKATA_ALOHA_WRIST_224_V1:
+  fovy: 88
+  w: 224
+  h: 224
+  near: 0.005
+  far: 100
+  mount_offset_m: [0.015, -0.032, 0.0]
+
+# Opt-in native square head optics; camera mount is unchanged.
+ROBOICL_SELECT_HEAD_224_F37:
+  fovy: 37
+  w: 224
+  h: 224
+
+ROBOICL_SELECT_HEAD_224_F42:
+  fovy: 42
+  w: 224
+  h: 224
+
+ROBOICL_SELECT_HEAD_224_F48:
+  fovy: 48.09
+  w: 224
+  h: 224

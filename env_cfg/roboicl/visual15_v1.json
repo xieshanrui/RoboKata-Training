@@ -1,0 +1,290 @@
+{
+  "schema": "roboicl_visual15_v1",
+  "lookat_world_m": [
+    -0.3,
+    -0.05,
+    0.79
+  ],
+  "jitter": {
+    "azimuth_deg": 1.5,
+    "elevation_deg": 1.0,
+    "distance_m": 0.01
+  },
+  "views": [
+    {
+      "id": "V00",
+      "azimuth_deg": 0,
+      "elevation_deg": 47.5,
+      "distance_m": 1.04,
+      "probability": 0.16
+    },
+    {
+      "id": "V01",
+      "azimuth_deg": -4.3,
+      "elevation_deg": 45.1,
+      "distance_m": 1.0,
+      "probability": 0.06
+    },
+    {
+      "id": "V02",
+      "azimuth_deg": 4.8,
+      "elevation_deg": 49.3,
+      "distance_m": 1.07,
+      "probability": 0.06
+    },
+    {
+      "id": "V03",
+      "azimuth_deg": -8.7,
+      "elevation_deg": 50.2,
+      "distance_m": 1.03,
+      "probability": 0.06
+    },
+    {
+      "id": "V04",
+      "azimuth_deg": 9.4,
+      "elevation_deg": 44.4,
+      "distance_m": 1.08,
+      "probability": 0.06
+    },
+    {
+      "id": "V05",
+      "azimuth_deg": -13.2,
+      "elevation_deg": 46.7,
+      "distance_m": 1.06,
+      "probability": 0.06
+    },
+    {
+      "id": "V06",
+      "azimuth_deg": 14.1,
+      "elevation_deg": 51.0,
+      "distance_m": 1.01,
+      "probability": 0.06
+    },
+    {
+      "id": "V07",
+      "azimuth_deg": -18.4,
+      "elevation_deg": 48.5,
+      "distance_m": 1.09,
+      "probability": 0.06
+    },
+    {
+      "id": "V08",
+      "azimuth_deg": 19.2,
+      "elevation_deg": 45.9,
+      "distance_m": 1.02,
+      "probability": 0.06
+    },
+    {
+      "id": "V09",
+      "azimuth_deg": -23.6,
+      "elevation_deg": 50.4,
+      "distance_m": 1.05,
+      "probability": 0.06
+    },
+    {
+      "id": "V10",
+      "azimuth_deg": 24.1,
+      "elevation_deg": 46.2,
+      "distance_m": 1.0,
+      "probability": 0.06
+    },
+    {
+      "id": "V11",
+      "azimuth_deg": -28.2,
+      "elevation_deg": 47.9,
+      "distance_m": 1.07,
+      "probability": 0.06
+    },
+    {
+      "id": "V12",
+      "azimuth_deg": 28.4,
+      "elevation_deg": 49.0,
+      "distance_m": 1.03,
+      "probability": 0.06
+    },
+    {
+      "id": "V13",
+      "azimuth_deg": -2.7,
+      "elevation_deg": 43.8,
+      "distance_m": 1.02,
+      "probability": 0.06
+    },
+    {
+      "id": "V14",
+      "azimuth_deg": 3.2,
+      "elevation_deg": 52.0,
+      "distance_m": 1.08,
+      "probability": 0.06
+    }
+  ],
+  "backgrounds": [
+    {
+      "id": "S00",
+      "label": "原色桌面",
+      "wall_texture": null,
+      "table_texture": null,
+      "probability": 0.06666666666666667
+    },
+    {
+      "id": "S01",
+      "label": "暖墙灰石",
+      "wall_texture": "seen/0",
+      "table_texture": "seen/2",
+      "probability": 0.06666666666666667
+    },
+    {
+      "id": "S02",
+      "label": "织纹冷灰",
+      "wall_texture": "seen/3",
+      "table_texture": "seen/4",
+      "probability": 0.06666666666666667
+    },
+    {
+      "id": "S03",
+      "label": "浅灰桌面",
+      "wall_texture": "seen/5",
+      "table_texture": "seen/6",
+      "probability": 0.06666666666666667
+    },
+    {
+      "id": "S04",
+      "label": "浅色木纹",
+      "wall_texture": "seen/0",
+      "table_texture": "seen/9",
+      "probability": 0.06666666666666667
+    },
+    {
+      "id": "S05",
+      "label": "深色木纹",
+      "wall_texture": "seen/10",
+      "table_texture": "seen/22",
+      "probability": 0.06666666666666667
+    },
+    {
+      "id": "S06",
+      "label": "横向木纹",
+      "wall_texture": "seen/4",
+      "table_texture": "seen/38",
+      "probability": 0.06666666666666667
+    },
+    {
+      "id": "S07",
+      "label": "蓝色织纹",
+      "wall_texture": "seen/2",
+      "table_texture": "seen/29",
+      "probability": 0.06666666666666667
+    },
+    {
+      "id": "S08",
+      "label": "柔和灰绿",
+      "wall_texture": "seen/0",
+      "table_texture": "seen/43",
+      "probability": 0.06666666666666667
+    },
+    {
+      "id": "S09",
+      "label": "暖色软木",
+      "wall_texture": "seen/5",
+      "table_texture": "seen/49",
+      "probability": 0.06666666666666667
+    },
+    {
+      "id": "S10",
+      "label": "浅色砖纹",
+      "wall_texture": "seen/12",
+      "table_texture": "seen/58",
+      "probability": 0.06666666666666667
+    },
+    {
+      "id": "S11",
+      "label": "暗红桌面",
+      "wall_texture": "seen/4",
+      "table_texture": "seen/87",
+      "probability": 0.06666666666666667
+    },
+    {
+      "id": "S12",
+      "label": "蓝色条纹",
+      "wall_texture": "seen/0",
+      "table_texture": "seen/98",
+      "probability": 0.06666666666666667
+    },
+    {
+      "id": "S13",
+      "label": "细密格纹",
+      "wall_texture": "seen/10",
+      "table_texture": "seen/51",
+      "probability": 0.06666666666666667
+    },
+    {
+      "id": "S14",
+      "label": "红棕条纹",
+      "wall_texture": "seen/2",
+      "table_texture": "seen/115",
+      "probability": 0.06666666666666667
+    }
+  ],
+  "texture_sha256": {
+    "seen/0.png": "e1ca2ad05936b39f81b80cfa76f5a5f75003abee3c139ee436cbd52eeb289808",
+    "seen/2.png": "f046ee86418c921e06ef675e0c3aff6c86d54723f7b8ce9a6517f6c3df557490",
+    "seen/3.png": "e8e65e36ee7f23b94a28f7bc1924ab73fae17e988ae0330371b2a8268496d7be",
+    "seen/4.png": "700fa6955649bcec97711513a8bf145dc344500f8df67dea709a349f7456bdd2",
+    "seen/5.png": "70c971eab0d07558a8ba0ca6bb67b680b493d29a931b0ea906a10b644f17f010",
+    "seen/6.png": "9d2cfb8c52081dbb24f563cc56b46bd6591f73224a70e1bd8135f17f4f35851c",
+    "seen/9.png": "9e965cac6421bfd459eca280db073d6adf53dbc876e942ab6be462be24ecf6c3",
+    "seen/10.png": "9aa1b85f9d756d8730a0089f97568fd4165b9a1897d8fa8e0e36b3c769bd6197",
+    "seen/22.png": "516b4193b922d942f5b504e6971829e0b814b44d6a5f93eb6591d98dbf1f1d20",
+    "seen/38.png": "e9659d6adf7effcaa3f81700151d87a8f05661038c632736a01f19a513ee80b9",
+    "seen/29.png": "bcf12d9f1320d70f6b500abe8b82aa7bc3f5a3dc45522b665cb086a2b34df290",
+    "seen/43.png": "7e86339b5fd9441ac82944294eec452f24797e0f19871fe0ec176efff9bb699c",
+    "seen/49.png": "d4f7b00bceddcaee371f3fcf8fc370eb3b8cd4c938b1e1caaf130420f8235c27",
+    "seen/12.png": "211d39323fd068f46c598dafccf2fbad5597d39b2f4cbe5e5b7617cd4cd36439",
+    "seen/58.png": "11f1680e490c7301b6e32ba1221e50316ccd69d8f7c26da4b09cb1fb2c92df71",
+    "seen/87.png": "648933ddb9ea26753fd83925b82e4b3b7bcedcc83031b6b1955197407f9ba1ea",
+    "seen/98.png": "d6281faea232801cc35022c751857bdfd418fc68b5b4c74e05b570a4a3b50c0b",
+    "seen/51.png": "e49f9ce6747836005edc88dfb1f641b993430729fb44fa998bbbd7df0f4df8d4",
+    "seen/115.png": "c5377539312586cb5dfdde5bb981128843432380444c94633d2b6e46337952db"
+  },
+  "sampling": {
+    "unit": "physical_initial_family",
+    "same_six_tasks": true,
+    "views_and_backgrounds_independent": true,
+    "groups500_view_counts": [
+      80,
+      30,
+      30,
+      30,
+      30,
+      30,
+      30,
+      30,
+      30,
+      30,
+      30,
+      30,
+      30,
+      30,
+      30
+    ],
+    "groups500_background_counts": [
+      34,
+      34,
+      34,
+      34,
+      34,
+      33,
+      33,
+      33,
+      33,
+      33,
+      33,
+      33,
+      33,
+      33,
+      33
+    ]
+  },
+  "physics": "unchanged: geometry, friction, table height, controls, objects and world waypoints",
+  "training_only": true,
+  "design_note": "User revision: retain approximately +/-30 degree azimuth envelope, non-grid centers, small continuous jitter and +/-5 percent distance variation. Wide views remain external evaluation."
+}

@@ -1,0 +1,1355 @@
+{
+  "version": 1,
+  "description": "Configured object/grasp/support geometry for the uniform dataset collector. Copy grasp and placement into each record gallery_contract; all physics and control are defined by the collector.",
+  "cases": [
+    {
+      "id": "q01_rim_top",
+      "object_spec": {
+        "asset": "039_mug",
+        "model_id": 3,
+        "contact_id": null
+      },
+      "grasp": {
+        "official_contact_ids": [
+          0
+        ],
+        "downward_angle_deg": [
+          60,
+          90.1
+        ],
+        "id": "rim",
+        "axial_retreat_m": 0.022
+      },
+      "placement": {
+        "base_center_local_m": [
+          0,
+          0,
+          0.02
+        ]
+      }
+    },
+    {
+      "id": "q01_loop_handle_top",
+      "object_spec": {
+        "asset": "039_mug",
+        "model_id": 3,
+        "contact_id": null
+      },
+      "grasp": {
+        "contact_frame_asset_units": [
+          [
+            0.0,
+            0.0,
+            -1.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            1.1166666666666667
+          ],
+          [
+            1.0,
+            0.0,
+            0.0,
+            -0.75
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "downward_angle_deg": [
+          60,
+          90.1
+        ],
+        "id": "handle",
+        "axial_retreat_m": 0.0185
+      },
+      "placement": {
+        "base_center_local_m": [
+          0,
+          0,
+          0.02
+        ]
+      }
+    },
+    {
+      "id": "q02_long_body_middle",
+      "object_spec": {
+        "asset": "102_roller",
+        "model_id": 1,
+        "contact_id": null
+      },
+      "grasp": {
+        "contact_frame_asset_units": [
+          [
+            -0.0,
+            -0.0,
+            -1.0,
+            0
+          ],
+          [
+            0.0,
+            1.0,
+            -0.0,
+            0.16136363636363635
+          ],
+          [
+            1.0,
+            -0.0,
+            -0.0,
+            0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "downward_angle_deg": [
+          60,
+          90.1
+        ],
+        "id": "center",
+        "axial_retreat_m": 0.021
+      },
+      "placement": {
+        "base_center_local_m": [
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "id": "q02_long_body_end",
+      "object_spec": {
+        "asset": "102_roller",
+        "model_id": 1,
+        "contact_id": null
+      },
+      "grasp": {
+        "contact_frame_asset_units": [
+          [
+            -0.0,
+            -0.0,
+            -1.0,
+            0
+          ],
+          [
+            0.0,
+            1.0,
+            -0.0,
+            0.16136363636363635
+          ],
+          [
+            1.0,
+            -0.0,
+            -0.0,
+            0.4166666666666667
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "downward_angle_deg": [
+          60,
+          90.1
+        ],
+        "id": "end",
+        "semantic_region": "positive end of thick rolling body, 50 mm from middle; excludes thin handle tip",
+        "axial_retreat_m": 0.021
+      },
+      "placement": {
+        "base_center_local_m": [
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "id": "q03_long_body_end",
+      "object_spec": {
+        "asset": "079_remotecontrol",
+        "model_id": 2,
+        "contact_id": null,
+        "initial_quaternion": [
+          0.5,
+          0.5,
+          0.5,
+          0.5
+        ]
+      },
+      "grasp": {
+        "contact_frame_asset_units": [
+          [
+            0.0,
+            0.0,
+            -1.0,
+            -0.0005679999999999999
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.165386
+          ],
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.47935999999999995
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "downward_angle_deg": [
+          60,
+          90.1
+        ],
+        "id": "long_body_end",
+        "axial_retreat_m": 0.028788289443796335
+      },
+      "placement": {
+        "base_center_local_m": [
+          2.703070640564312e-06,
+          -0.0017369292676448836,
+          -0.000255453586578365
+        ]
+      }
+    },
+    {
+      "id": "q04_bar_middle",
+      "object_spec": {
+        "asset": "052_dumbbell",
+        "model_id": 6,
+        "contact_id": null,
+        "initial_quaternion": [
+          0.5,
+          0.5,
+          0.5,
+          0.5
+        ]
+      },
+      "grasp": {
+        "contact_frame_asset_units": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            -0.0,
+            0.33726000785827637
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            -0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "downward_angle_deg": [
+          60,
+          90.1
+        ],
+        "id": "bar_middle",
+        "axial_retreat_m": 0.01716366494354706
+      },
+      "placement": {
+        "base_center_local_m": [
+          4.1106343269342593e-05,
+          -0.0017106726765632636,
+          2.6911497116085398e-06
+        ]
+      }
+    },
+    {
+      "id": "q05_tool_handle_middle",
+      "object_spec": {
+        "asset": "020_hammer",
+        "model_id": 0,
+        "contact_id": null,
+        "initial_quaternion": [
+          0.5,
+          -0.5,
+          -0.5,
+          -0.5
+        ]
+      },
+      "grasp": {
+        "contact_frame_asset_units": [
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            -1.0,
+            0.039240506329
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "downward_angle_deg": [
+          60,
+          90.1
+        ],
+        "id": "tool_handle_middle"
+      },
+      "placement": {
+        "base_center_local_m": [
+          -0.014076832860708238,
+          -3.8225769996638737e-05,
+          0.0002703514993190777
+        ]
+      }
+    },
+    {
+      "id": "q06_tool_handle_middle",
+      "object_spec": {
+        "asset": "084_woodenmallet",
+        "model_id": 3,
+        "contact_id": null,
+        "initial_quaternion": [
+          0.5,
+          0.5,
+          0.5,
+          0.5
+        ]
+      },
+      "grasp": {
+        "contact_frame_asset_units": [
+          [
+            -0.008019999600946903,
+            -0.0037899999879300594,
+            -0.9999600052833557,
+            0.0
+          ],
+          [
+            -0.013120000250637531,
+            0.9999099969863892,
+            -0.0036899999249726534,
+            0.31286999583244324
+          ],
+          [
+            0.9998800158500671,
+            0.013089999556541443,
+            -0.008070000447332859,
+            0.2727699875831604
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "downward_angle_deg": [
+          60,
+          90.1
+        ],
+        "id": "tool_handle_middle",
+        "axial_retreat_m": 0.024366885479066132
+      },
+      "placement": {
+        "base_center_local_m": [
+          4.0754675865138645e-07,
+          -0.0017015932127833339,
+          6.249845027923862e-05
+        ]
+      }
+    },
+    {
+      "id": "q08_cup_body_top",
+      "object_spec": {
+        "asset": "021_cup",
+        "model_id": 1,
+        "contact_id": null,
+        "initial_quaternion": [
+          0.5,
+          0.5,
+          0.5,
+          0.5
+        ]
+      },
+      "grasp": {
+        "id": "cup_body_top",
+        "contact_frame_asset_units": [
+          [
+            2.220446049250313e-16,
+            0.0,
+            1.0,
+            9.379453129238552e-05
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            1.0166511767440372
+          ],
+          [
+            -1.0,
+            0.0,
+            2.220446049250313e-16,
+            4.5531325870090063e-07
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "downward_angle_deg": [
+          80.0,
+          90.1
+        ],
+        "axial_retreat_m": 0.018,
+        "exchange_fingers": false
+      },
+      "placement": {
+        "base_center_local_m": [
+          1.0997056961066509e-07,
+          0.0,
+          -1.7627477645875203e-05
+        ]
+      }
+    },
+    {
+      "id": "q09_pencup_outer_top",
+      "object_spec": {
+        "asset": "059_pencup",
+        "model_id": 1,
+        "contact_id": null,
+        "initial_quaternion": [
+          0.5,
+          0.5,
+          0.5,
+          0.5
+        ]
+      },
+      "grasp": {
+        "id": "opposite_mouth",
+        "contact_frame_asset_units": [
+          [
+            0,
+            0,
+            -1,
+            0
+          ],
+          [
+            0,
+            1,
+            0,
+            1.5777169466018675
+          ],
+          [
+            1,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            1
+          ]
+        ],
+        "downward_angle_deg": [
+          75,
+          90.1
+        ],
+        "axial_retreat_m": 0.022,
+        "exchange_fingers": false,
+        "symmetric_jaw_fallback": true
+      },
+      "placement": {
+        "base_center_local_m": [
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "id": "q09_pencup_rim_top",
+      "object_spec": {
+        "asset": "059_pencup",
+        "model_id": 1,
+        "contact_id": null,
+        "initial_quaternion": [
+          0.5,
+          0.5,
+          0.5,
+          0.5
+        ]
+      },
+      "grasp": {
+        "id": "single_wall",
+        "contact_frame_asset_units": [
+          [
+            1,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            0,
+            1.5777169466018675
+          ],
+          [
+            0,
+            0,
+            1,
+            0.7875
+          ],
+          [
+            0,
+            0,
+            0,
+            1
+          ]
+        ],
+        "downward_angle_deg": [
+          75,
+          90.1
+        ],
+        "axial_retreat_m": 0.022,
+        "exchange_fingers": false,
+        "symmetric_jaw_fallback": true
+      },
+      "placement": {
+        "base_center_local_m": [
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "id": "q10_rim_top",
+      "object_spec": {
+        "asset": "021_cup",
+        "model_id": 7,
+        "contact_id": null,
+        "initial_quaternion": [
+          0.5,
+          0.5,
+          0.5,
+          0.5
+        ]
+      },
+      "grasp": {
+        "id": "rim_top",
+        "contact_frame_asset_units": [
+          [
+            -0.8660254037844386,
+            -0.026167978121471924,
+            -0.499314767377287,
+            -0.3048792636015048
+          ],
+          [
+            0.0,
+            0.9986295347545738,
+            -0.052335956242943835,
+            1.581510281860242
+          ],
+          [
+            0.5000000000000001,
+            -0.04532426763774015,
+            -0.8648385460668958,
+            -0.27555574966739077
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "downward_angle_deg": [
+          75.0,
+          90.1
+        ],
+        "axial_retreat_m": 0.023,
+        "exchange_fingers": true
+      },
+      "placement": {
+        "base_center_local_m": [
+          5.912780761709036e-07,
+          0.0,
+          0.022378836870193482
+        ]
+      }
+    },
+    {
+      "id": "q10_loop_handle_top",
+      "object_spec": {
+        "asset": "021_cup",
+        "model_id": 7,
+        "contact_id": null,
+        "initial_quaternion": [
+          0.5,
+          0.5,
+          0.5,
+          0.5
+        ]
+      },
+      "grasp": {
+        "id": "loop_handle_top",
+        "contact_frame_asset_units": [
+          [
+            0.0,
+            0.0,
+            -1.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            1.4211975
+          ],
+          [
+            1.0,
+            0.0,
+            0.0,
+            -0.6875
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "downward_angle_deg": [
+          75.0,
+          90.1
+        ],
+        "axial_retreat_m": 0.022,
+        "exchange_fingers": false
+      },
+      "placement": {
+        "base_center_local_m": [
+          5.912780761709036e-07,
+          0.0,
+          0.022378836870193482
+        ]
+      }
+    },
+    {
+      "id": "q12_rim_top",
+      "object_spec": {
+        "asset": "021_cup",
+        "model_id": 3,
+        "contact_id": null,
+        "initial_quaternion": [
+          0.5,
+          0.5,
+          0.5,
+          0.5
+        ]
+      },
+      "grasp": {
+        "id": "rim_top",
+        "contact_frame_asset_units": [
+          [
+            -0.7547095802227721,
+            0.0,
+            -0.656059028990507,
+            -0.29412719996084086
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            1.017495337866679
+          ],
+          [
+            0.656059028990507,
+            0.0,
+            -0.7547095802227721,
+            -0.3383571562522235
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "axial_retreat_m": 0.022,
+        "exchange_fingers": true,
+        "symmetric_jaw_fallback": true,
+        "downward_angle_deg": [
+          75.0,
+          90.1
+        ]
+      },
+      "placement": {
+        "base_center_local_m": [
+          1.1920928955772014e-08,
+          0.0,
+          -1.8204450607298833e-05
+        ]
+      }
+    },
+    {
+      "id": "q16_long_body_middle",
+      "object_spec": {
+        "asset": "054_baguette",
+        "model_id": 2,
+        "contact_id": null,
+        "initial_quaternion": [
+          0.5,
+          0.5,
+          0.5,
+          0.5
+        ]
+      },
+      "grasp": {
+        "contact_frame_asset_units": [
+          [
+            0.0,
+            0.0,
+            -1.0,
+            -0.0001486
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0237968
+          ],
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0007923
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "downward_angle_deg": [
+          60,
+          90.1
+        ],
+        "id": "long_body_middle"
+      },
+      "placement": {
+        "base_center_local_m": [
+          3.351643681526184e-05,
+          -0.002480186987668276,
+          0.0007690936326980591
+        ]
+      }
+    },
+    {
+      "id": "q16_long_body_end",
+      "object_spec": {
+        "asset": "054_baguette",
+        "model_id": 2,
+        "contact_id": null,
+        "initial_quaternion": [
+          0.5,
+          0.5,
+          0.5,
+          0.5
+        ]
+      },
+      "grasp": {
+        "contact_frame_asset_units": [
+          [
+            0.0,
+            0.0,
+            -1.0,
+            0.0002489
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0219251
+          ],
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0698319
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "downward_angle_deg": [
+          60,
+          90.1
+        ],
+        "id": "long_body_end"
+      },
+      "placement": {
+        "base_center_local_m": [
+          3.351643681526184e-05,
+          -0.002480186987668276,
+          0.0007690936326980591
+        ]
+      }
+    },
+    {
+      "id": "q17_compact_body_top",
+      "object_spec": {
+        "asset": "073_rubikscube",
+        "model_id": 2,
+        "contact_id": null
+      },
+      "grasp": {
+        "downward_angle_deg": [
+          60,
+          90.1
+        ],
+        "id": "top",
+        "axial_retreat_m": 0.03,
+        "contact_frame_asset_units": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            -0.0,
+            1.4843637156485914
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ]
+      },
+      "placement": {
+        "base_center_local_m": [
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "id": "q18_compact_body_top",
+      "object_spec": {
+        "asset": "055_small-speaker",
+        "model_id": 1,
+        "contact_id": null,
+        "initial_quaternion": [
+          0.5,
+          0.5,
+          0.5,
+          0.5
+        ]
+      },
+      "grasp": {
+        "id": "compact_body_top",
+        "contact_frame_asset_units": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.07881890885701898
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "downward_angle_deg": [
+          60,
+          90.1
+        ],
+        "axial_retreat_m": 0.029
+      },
+      "placement": {
+        "base_center_local_m": [
+          -3.1851232051849365e-06,
+          -0.0004594530910253525,
+          -4.522502422332764e-06
+        ]
+      }
+    },
+    {
+      "id": "q19_compact_body_top",
+      "object_spec": {
+        "asset": "075_bread",
+        "model_id": 2,
+        "contact_id": null,
+        "initial_quaternion": [
+          0.5,
+          0.5,
+          0.5,
+          0.5
+        ]
+      },
+      "grasp": {
+        "id": "compact_body_top",
+        "contact_frame_asset_units": [
+          [
+            0.9999143275740071,
+            0.0,
+            0.013089595571344441,
+            -0.4332695556483568
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.785290002822876
+          ],
+          [
+            -0.013089595571344441,
+            0.0,
+            0.9999143275740071,
+            0.007417282427291553
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "downward_angle_deg": [
+          60,
+          90.1
+        ],
+        "axial_retreat_m": 0.02350663060909296
+      },
+      "placement": {
+        "base_center_local_m": [
+          4.836916923517398e-07,
+          -0.0004787216708064079,
+          -1.7914474010467113e-05
+        ]
+      }
+    },
+    {
+      "id": "q20_compact_body_top",
+      "object_spec": {
+        "asset": "113_coffee-box",
+        "model_id": 6,
+        "contact_id": null,
+        "initial_quaternion": [
+          0.5,
+          0.5,
+          0.5,
+          0.5
+        ]
+      },
+      "grasp": {
+        "id": "compact_body_top",
+        "contact_frame_asset_units": [
+          [
+            -0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            -0.0,
+            1.0,
+            -0.0,
+            1.7319799661636353
+          ],
+          [
+            -1.0,
+            0.0,
+            0.0,
+            -0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "downward_angle_deg": [
+          60,
+          90.1
+        ],
+        "axial_retreat_m": 0.026
+      },
+      "placement": {
+        "base_center_local_m": [
+          2.098083496087505e-07,
+          -0.0006959173828363418,
+          -1.2075901031499692e-06
+        ]
+      }
+    },
+    {
+      "id": "q21_compact_body_top",
+      "object_spec": {
+        "asset": "100_seal",
+        "model_id": 3,
+        "contact_id": null,
+        "initial_quaternion": [
+          0.5,
+          0.5,
+          0.5,
+          0.5
+        ]
+      },
+      "grasp": {
+        "id": "compact_body_top",
+        "contact_frame_asset_units": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            -0.0,
+            1.5555800199508667
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "official_contact_ids": [
+          4
+        ],
+        "downward_angle_deg": [
+          80.0,
+          90.1
+        ],
+        "axial_retreat_m": 0.03,
+        "exchange_fingers": false
+      },
+      "placement": {
+        "base_center_local_m": [
+          1.4505349099636078e-05,
+          0.0,
+          2.7047470211982727e-05
+        ]
+      }
+    },
+    {
+      "id": "q22_compact_body_top",
+      "object_spec": {
+        "asset": "057_toycar",
+        "model_id": 0,
+        "contact_id": null,
+        "initial_quaternion": [
+          0.5,
+          0.5,
+          0.5,
+          0.5
+        ]
+      },
+      "grasp": {
+        "id": "compact_body_top",
+        "contact_frame_asset_units": [
+          [
+            -0.002139999996870756,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            -9.999999747378752e-06,
+            1.0,
+            -0.0,
+            0.5486999750137329
+          ],
+          [
+            -1.0,
+            -9.999999747378752e-06,
+            -0.002139999996870756,
+            -0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "official_contact_ids": [
+          0
+        ],
+        "downward_angle_deg": [
+          80.0,
+          90.1
+        ],
+        "axial_retreat_m": 0.016,
+        "exchange_fingers": false
+      },
+      "placement": {
+        "base_center_local_m": [
+          -3.6694109439849854e-07,
+          0.0,
+          -0.0021444987505674362
+        ]
+      }
+    },
+    {
+      "id": "q23_compact_body_top",
+      "object_spec": {
+        "asset": "048_stapler",
+        "model_id": 6,
+        "contact_id": null,
+        "initial_quaternion": [
+          0.5,
+          0.5,
+          0.5,
+          0.5
+        ]
+      },
+      "grasp": {
+        "id": "compact_body_top",
+        "contact_frame_asset_units": [
+          [
+            0.0,
+            0.007189999800175428,
+            0.999970018863678,
+            0.0
+          ],
+          [
+            -0.0,
+            0.999970018863678,
+            -0.007189999800175428,
+            0.774150013923645
+          ],
+          [
+            -1.0,
+            -0.0,
+            0.0,
+            -0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "official_contact_ids": [
+          0
+        ],
+        "downward_angle_deg": [
+          80.0,
+          90.1
+        ],
+        "axial_retreat_m": 0.01,
+        "exchange_fingers": false
+      },
+      "placement": {
+        "base_center_local_m": [
+          4.145316779613495e-06,
+          0.0,
+          3.466382622718811e-06
+        ]
+      }
+    },
+    {
+      "id": "q24_compact_body_top",
+      "object_spec": {
+        "asset": "006_hamburg",
+        "model_id": 5,
+        "contact_id": null,
+        "initial_quaternion": [
+          0.5,
+          0.5,
+          0.5,
+          0.5
+        ]
+      },
+      "grasp": {
+        "id": "compact_body_top",
+        "contact_frame_asset_units": [
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.013799999840557575
+          ],
+          [
+            0.001180000021122396,
+            1.0,
+            -0.0,
+            0.4407599866390228
+          ],
+          [
+            -1.0,
+            0.001180000021122396,
+            0.0,
+            0.0957299992442131
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "official_contact_ids": [
+          0
+        ],
+        "downward_angle_deg": [
+          80.0,
+          90.1
+        ],
+        "axial_retreat_m": 0.018,
+        "exchange_fingers": false
+      },
+      "placement": {
+        "base_center_local_m": [
+          0.00019897893071174622,
+          0.0,
+          -5.149655044078827e-05
+        ]
+      }
+    },
+    {
+      "id": "q25_rim_top",
+      "object_spec": {
+        "asset": "062_plasticbox",
+        "model_id": 0,
+        "contact_id": null,
+        "initial_quaternion": [
+          0.5,
+          0.5,
+          0.5,
+          0.5
+        ]
+      },
+      "grasp": {
+        "id": "rim_top",
+        "contact_frame_asset_units": [
+          [
+            0.0,
+            0.0,
+            1.0,
+            -0.8648127174377441
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.663
+          ],
+          [
+            -1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "official_contact_ids": [
+          1
+        ],
+        "downward_angle_deg": [
+          80.0,
+          90.1
+        ],
+        "axial_retreat_m": 0.0223,
+        "exchange_fingers": false
+      },
+      "placement": {
+        "base_center_local_m": [
+          1.9855797290802e-06,
+          0.0,
+          -1.4465302228927612e-05
+        ]
+      }
+    }
+  ]
+}
