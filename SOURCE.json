@@ -1,0 +1,36 @@
+{
+  "component": "osvi",
+  "source_commit": "045d5806f91518fdaa7d1c8944efe050028b66d8",
+  "source_repository": "https://github.com/xieshanrui/RoboICL",
+  "source_subrepository": "robokata",
+  "published_as": "Isolated public source snapshot; original repositories and histories left unchanged.",
+  "selected_paths": [
+    "osvi_robotwin",
+    "osvi_ig"
+  ],
+  "excluded_editor_ci_notebooks": [],
+  "original_file_sha256": {
+    "osvi_ig/README.md": "dd46205291a07d197d7b1044e49b22c96403d5e97d2b4a48c2db479c3d9d12e8",
+    "osvi_ig/__init__.py": "f89c1e7e172ed6c5950f5013b3acd1704db42d09f1443a98ab7a7c77f67f4c66",
+    "osvi_ig/data.py": "5adffaec7de104c5b114d5d05e1dcff9004c4510d34d4a361b4d195e9e55ed34",
+    "osvi_ig/evaluate_policy.py": "6aad2c2714fc2c89afa6ae379c1f13e4f3baab61fe83d9b51a5fc10abac50510",
+    "osvi_ig/policy.py": "6b8c10d7ec6fab79ee620a9c12715d6af85c1cc4a1a004f118116b6ad9dfe1d8",
+    "osvi_ig/prepare.py": "11eb23fa62833669815b4bc901f2b21f9020e779e15b172470731c2546013f39",
+    "osvi_robotwin/README.md": "2d13d128e3828d9728c5d5e325ceb44701afe0c5d6fa0fd39f091d18e6c97707",
+    "osvi_robotwin/__init__.py": "4d4d40b1c8920b41e2c34d79b4a8fc192487fff15fc9063baba40da63983e9fb",
+    "osvi_robotwin/bridge.py": "01c3d406da8bf0c4c3d0f39f789c1f579895c34a11a448eb4614c4b0dfde11c7",
+    "osvi_robotwin/data.py": "13e58440dbe89049a14026aa0a12ccc189d60acf83643fa6c234e587efbd0d11",
+    "osvi_robotwin/evaluation_bridge.py": "96dc32af163ab035bbc9f1e09dcdbdd0ef9aa831d12b4fa5ecc5ce9094917f20",
+    "osvi_robotwin/model.py": "d095e27419332c3fc7fea86dcac851cb1605c89c9ca8159c248d5f92ef436a0b",
+    "osvi_robotwin/policy.py": "7567b4c4b75ba538771e7d18937da8c1d607cca3e97c3bd565de8e7d993c3dbd",
+    "osvi_robotwin/probe.py": "b5936d2a7167984fd1c8fb0717329f589fbedc9821be97f7edfbe3c513a2c5de",
+    "osvi_robotwin/train.py": "09b4e6aa6ffcbb591b88bbf401842b0c2fb494daaee73d354879e80c2d3f1d66"
+  },
+  "upstream_licenses": "Retained in source; see THIRD_PARTY.md on main.",
+  "publication_changes": {},
+  "publication_notes": [
+    "Root README replaced with handoff index; original retained as SOURCE_README.md when present.",
+    "Git ignore/attributes describe source-only publication.",
+    "ACT prepare accepts the frozen six-episode RGB exclusion contract before fitting statistics."
+  ]
+}
