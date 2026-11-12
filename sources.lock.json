@@ -1,0 +1,126 @@
+{
+  "schema": 1,
+  "selection": "Frozen source snapshots; no automatic branch upgrades",
+  "components": [
+    {
+      "name": "act",
+      "path": "models/act",
+      "url": "https://github.com/xieshanrui/RoboKata-Training.git",
+      "branch": "act",
+      "commit": "38c34922d55319104ce720c36a1f4b7fd21c8252",
+      "original_source_commit": "045d5806f91518fdaa7d1c8944efe050028b66d8",
+      "entrypoints": [
+        "act_robotwin/train.py",
+        "act_robotwin/prepare.py"
+      ]
+    },
+    {
+      "name": "osvi-wm",
+      "path": "models/osvi",
+      "url": "https://github.com/xieshanrui/RoboKata-Training.git",
+      "branch": "osvi-wm",
+      "commit": "95843f652026460f751d0745928fcd4cffce58cd",
+      "original_source_commit": "045d5806f91518fdaa7d1c8944efe050028b66d8",
+      "entrypoints": [
+        "osvi_robotwin/train.py",
+        "osvi_ig/prepare.py"
+      ]
+    },
+    {
+      "name": "lingbot-va",
+      "path": "models/lingbot",
+      "url": "https://github.com/xieshanrui/RoboKata-Training.git",
+      "branch": "lingbot-va",
+      "commit": "736039802bd92f3325b0923e653209ee01e7cd4e",
+      "original_source_commit": "045d5806f91518fdaa7d1c8944efe050028b66d8",
+      "entrypoints": [
+        "lingbot_ig_text/train.py",
+        "lingbot_ig_text/checkpoint.py"
+      ]
+    },
+    {
+      "name": "openpi",
+      "path": "models/openpi",
+      "url": "https://github.com/xieshanrui/RoboKata-Training.git",
+      "branch": "openpi",
+      "commit": "5d5765170e1080e21db05c486b8546e682949bdb",
+      "original_source_commit": "7225788a3f34f442683fc53f9bf3b8c175791c19",
+      "entrypoints": [
+        "examples/segmented_demo/train.py",
+        "examples/robotwin_text/train.py"
+      ]
+    },
+    {
+      "name": "robokata",
+      "path": "models/robokata",
+      "url": "https://github.com/xieshanrui/RoboKata-Training.git",
+      "branch": "robokata",
+      "commit": "b0a491b5101913307f6ccf54a7f337b122427b22",
+      "original_source_commit": "045d5806f91518fdaa7d1c8944efe050028b66d8",
+      "entrypoints": [
+        "roboicl/train_entry.py",
+        "robotwin_b/train_distributed.py"
+      ]
+    },
+    {
+      "name": "robokata-ig-fi",
+      "path": "models/robokata_ig_fi",
+      "url": "https://github.com/xieshanrui/RoboKata-Training.git",
+      "branch": "robokata-ig-fi",
+      "commit": "4bf43409fb21f2391e41c10de82db54bc0b6d20b",
+      "original_source_commit": "bb5ae196287f9899dad5ea70e7bf4562c5d80ad6",
+      "entrypoints": [
+        "roboicl/train_entry.py",
+        "roboicl/ig10k_semantic_features.py"
+      ]
+    },
+    {
+      "name": "zero-wam",
+      "path": "models/zerowam",
+      "url": "https://github.com/xieshanrui/RoboKata-Training.git",
+      "branch": "zero-wam",
+      "commit": "39b99a4976a3ff3a62db6b47e9ad4b4ddb85e3ef",
+      "original_source_commit": "d32c5a54d450323ec084357440c425e0b061a97e",
+      "entrypoints": [
+        "wan_va/train.py"
+      ]
+    },
+    {
+      "name": "robotwin",
+      "path": "environments/robotwin",
+      "url": "https://github.com/xieshanrui/RoboKata-Training.git",
+      "branch": "robotwin",
+      "commit": "262e3821bb9b50c52c290b5b93be040382e8e98c",
+      "original_source_commit": "4d48cdae0823191fe9021161b11625b3a4f7d576",
+      "entrypoints": [
+        "scripts/eval_policy_multitask.py"
+      ]
+    },
+    {
+      "name": "imitator-game",
+      "path": "environments/imitator_game",
+      "url": "https://github.com/xieshanrui/RoboKata-Training.git",
+      "branch": "imitator-game",
+      "commit": "cf07de8d610c58602678c612f170fa51c77d3560",
+      "original_source_commit": "55615649dd05578ca0073beb375aa4edf8d8277c",
+      "entrypoints": [
+        "examples/baselines/zero_wam/train_zero_wam_imitator.py",
+        "examples/baselines/act/train_act_imitator.py"
+      ]
+    },
+    {
+      "name": "osvi-wm-upstream",
+      "path": "third_party/osvi_wm",
+      "url": "https://github.com/raktimgg/osvi-wm.git",
+      "commit": "ebd1fa7131078d10dbb101c8f0e3c9b3b86edb81",
+      "entrypoints": []
+    },
+    {
+      "name": "lingbot-va-upstream",
+      "path": "third_party/lingbot_va",
+      "url": "https://github.com/Robbyant/lingbot-va.git",
+      "commit": "7c6ffa9bfc4b83582cafc860fab4c82cc7deeeeb",
+      "entrypoints": []
+    }
+  ]
+}

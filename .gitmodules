@@ -1,0 +1,42 @@
+[submodule "models/act"]
+	path = models/act
+	url = ./
+	branch = act
+[submodule "models/osvi"]
+	path = models/osvi
+	url = ./
+	branch = osvi-wm
+[submodule "models/lingbot"]
+	path = models/lingbot
+	url = ./
+	branch = lingbot-va
+[submodule "models/openpi"]
+	path = models/openpi
+	url = ./
+	branch = openpi
+[submodule "models/robokata"]
+	path = models/robokata
+	url = ./
+	branch = robokata
+[submodule "models/robokata_ig_fi"]
+	path = models/robokata_ig_fi
+	url = ./
+	branch = robokata-ig-fi
+[submodule "models/zerowam"]
+	path = models/zerowam
+	url = ./
+	branch = zero-wam
+[submodule "environments/robotwin"]
+	path = environments/robotwin
+	url = ./
+	branch = robotwin
+[submodule "environments/imitator_game"]
+	path = environments/imitator_game
+	url = ./
+	branch = imitator-game
+[submodule "third_party/osvi_wm"]
+	path = third_party/osvi_wm
+	url = https://github.com/raktimgg/osvi-wm.git
+[submodule "third_party/lingbot_va"]
+	path = third_party/lingbot_va
+	url = https://github.com/Robbyant/lingbot-va.git

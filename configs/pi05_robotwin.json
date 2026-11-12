@@ -1,0 +1,16 @@
+{
+  "world_size": 4,
+  "global_batch": 64,
+  "per_gpu_batch": 16,
+  "gradient_accumulation": 1,
+  "steps": 30000,
+  "warmup": 1000,
+  "lr_peak": 2.5e-05,
+  "lr_end": 2.5e-06,
+  "seed": 20261111,
+  "cpu_threads": 4,
+  "base_checkpoint": "${PI_BASE}",
+  "tokenizer": "${TOKENIZER}",
+  "data": "${PI_DATA}",
+  "assets": "${PI_ASSETS}"
+}

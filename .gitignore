@@ -1,0 +1,14 @@
+local/
+.env
+.venv/
+__pycache__/
+*.pyc
+data/
+weights/
+runs/
+outputs/
+*.pem
+*.key
+
+local.env
+*.env

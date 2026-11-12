@@ -1,0 +1,9 @@
+{
+  "preflight": "PASS: 11 pinned components, entrypoints, JSON and helper syntax\nThis is a source/config check, not a data, dependency, CUDA or convergence test.",
+  "shell_syntax": 13,
+  "config_templates": 4,
+  "source_hashes": 3565,
+  "dry_run_recipes": 12,
+  "gpu_training_launched": false,
+  "fresh_public_clone": "Pending final publication verification; run tools/preflight.py after cloning."
+}

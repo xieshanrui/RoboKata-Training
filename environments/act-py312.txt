@@ -1,0 +1,29 @@
+# Linux Python 3.12.16; selected direct requirements from the recorded runtime.
+# See runtime_versions.json for the full observed environment, not an installation specification.
+torch==2.9.0
+torchvision==0.24.0
+torchcodec==0.8.1
+numpy==1.26.4
+pyarrow==25.0.1
+h5py==3.14.0
+transformers==4.55.2
+huggingface_hub==0.36.2
+einops==0.8.2
+opencv-python-headless==4.11.0.86
+tqdm==4.70.1
+scipy==1.17.1
+pillow==13.0.0
+safetensors==0.8.0
+av==15.1.0
+diffusers==0.36.0
+accelerate==1.15.0
+easydict==1.13
+ImageIO==2.38.1
+imageio-ffmpeg==0.6.0
+ftfy==6.3.1
+PyYAML==6.0.3
+tyro==1.0.17
+wandb==0.31.0
+websockets==17.3
+msgpack==1.2.4
+matplotlib==3.10.9

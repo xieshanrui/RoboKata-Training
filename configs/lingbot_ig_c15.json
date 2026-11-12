@@ -1,0 +1,23 @@
+{
+  "run_root": "${RUN}",
+  "storage": "${STORAGE}",
+  "official_source": "${LINGBOT_SOURCE}",
+  "model": "${LINGBOT_MODEL}",
+  "manifest": "${MANIFEST_IG}",
+  "statistics": "${STATS_IG}",
+  "text_cache": "${TEXT_CACHE}",
+  "action_space_source": "${ROOT}/environments/imitator_game/examples/baselines/zero_wam/zero_wam/action_space.py",
+  "world_size": 8,
+  "batch_per_gpu": 8,
+  "epochs": 60,
+  "updates": 2820,
+  "seed": 20261110,
+  "selection": "final epoch60",
+  "activation_checkpointing": true,
+  "recovery_interval": 100,
+  "exports_epochs": [
+    20,
+    40,
+    60
+  ]
+}

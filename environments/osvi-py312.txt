@@ -1,0 +1,24 @@
+# Linux Python 3.12.16; selected direct requirements from the recorded runtime.
+# See runtime_versions.json for the full observed environment, not an installation specification.
+torch==2.9.0
+torchvision==0.24.0
+torchcodec==0.8.1
+numpy==1.26.4
+pyarrow==25.0.1
+h5py==3.14.0
+opencv-python-headless==4.11.0.86
+einops==0.8.2
+tqdm==4.70.1
+numba==0.61.2
+numba-cuda==0.30.4
+llvmlite==0.44.0
+cuda-bindings==12.9.10
+cuda-core==1.2.2
+cuda-pathfinder==1.8.6
+huggingface_hub==0.36.2
+PyYAML==6.0.3
+tyro==1.0.17
+wandb==0.31.0
+websockets==17.3
+msgpack==1.2.4
+matplotlib==3.10.9
