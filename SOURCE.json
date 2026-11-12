@@ -116,12 +116,393 @@
   "publication_changes": {
     "README.md": {
       "published_path": "SOURCE_README.md",
-      "published_sha256": "599cd6b8bf4e8c48a0ec592910155f705ffde16175126a898e600c28c2496ced"
+      "published_sha256": "5b906d60e682aaab8e0160aafa7e9427924e832b5a8d013c75362b5d8903390b"
+    },
+    "backend/LICENSE": {
+      "published_path": "backend/LICENSE",
+      "published_sha256": "04f6d73d1fb98878931fa9e79a8124ad884109bbdb31c0556ccdf389bbcd9df3"
+    },
+    "backend/examples/baselines/lerobot_dataset/normalizer.py": {
+      "published_path": "backend/examples/baselines/lerobot_dataset/normalizer.py",
+      "published_sha256": "6b7ca46c2d4d380f32803bf133e438bf88579507a10bd629603ea2fe9d1f59f4"
+    },
+    "backend/examples/baselines/zero_wam/__init__.py": {
+      "published_path": "backend/examples/baselines/zero_wam/__init__.py",
+      "published_sha256": "231a9054b01f335dba0e3881ad15fae0493d8d1d5dc847fc0093289d1235cfa0"
+    },
+    "backend/examples/baselines/zero_wam/zero_wam/__init__.py": {
+      "published_path": "backend/examples/baselines/zero_wam/zero_wam/__init__.py",
+      "published_sha256": "e07cec6a5529fcef671ac998bb2cb18b407d68bf18b6c803363664977aa90b58"
+    },
+    "backend/examples/baselines/zero_wam/zero_wam/action_space.py": {
+      "published_path": "backend/examples/baselines/zero_wam/zero_wam/action_space.py",
+      "published_sha256": "1e3d721f7bc7d95c6ba8f8d4d9d8e1232a5310c518f6a6bbf059c3e20bad5052"
+    },
+    "backend/examples/baselines/zero_wam/zero_wam/cache.py": {
+      "published_path": "backend/examples/baselines/zero_wam/zero_wam/cache.py",
+      "published_sha256": "bf22fc3c1e59317324a94779ddc0bc8dfd0d14d99ab60c4bccb526b144193d9d"
+    },
+    "backend/examples/baselines/zero_wam/zero_wam/config.py": {
+      "published_path": "backend/examples/baselines/zero_wam/zero_wam/config.py",
+      "published_sha256": "547caaa9a7c401cd1c53ce91e956e22306e4b403130ad448e0adc1d33e8752b5"
+    },
+    "backend/examples/baselines/zero_wam/zero_wam/dataset.py": {
+      "published_path": "backend/examples/baselines/zero_wam/zero_wam/dataset.py",
+      "published_sha256": "81a99e1208e798596069cc06d9ae921767ffc70a70ff6f957e8b5851fb2e96e7"
+    },
+    "backend/examples/baselines/zero_wam/zero_wam/lora.py": {
+      "published_path": "backend/examples/baselines/zero_wam/zero_wam/lora.py",
+      "published_sha256": "66f6695a7389e3efaa16b9abdf8f5fe4e0bb5738f68be834ce2ad8b8a97f1c7e"
+    },
+    "backend/examples/baselines/zero_wam/zero_wam/model.py": {
+      "published_path": "backend/examples/baselines/zero_wam/zero_wam/model.py",
+      "published_sha256": "bdcfc708d569002adc904988b256ad747c04990b53e4cb350ff033aae1c164ec"
+    },
+    "backend/examples/baselines/zero_wam/zero_wam/policy.py": {
+      "published_path": "backend/examples/baselines/zero_wam/zero_wam/policy.py",
+      "published_sha256": "5d264beb013fcb7a09243dd5268bfcd3b029fcd8e853ad5d5e412779820222a2"
+    },
+    "backend/examples/baselines/zero_wam/zero_wam/runtime.py": {
+      "published_path": "backend/examples/baselines/zero_wam/zero_wam/runtime.py",
+      "published_sha256": "5a496135e1c9eb8f794bd55dd5545458a2c943f4fa3149d16496f272849ae0b0"
+    },
+    "backend/examples/baselines/zero_wam/zero_wam/training.py": {
+      "published_path": "backend/examples/baselines/zero_wam/zero_wam/training.py",
+      "published_sha256": "8c588f9aed5c087fcf58e371d9db081a2e43511ec6bb345c58c4b628b1382531"
+    },
+    "backend/examples/baselines/zero_wam/zero_wam/wan_va/LICENSE.txt": {
+      "published_path": "backend/examples/baselines/zero_wam/zero_wam/wan_va/LICENSE.txt",
+      "published_sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4"
+    },
+    "backend/examples/baselines/zero_wam/zero_wam/wan_va/UPSTREAM.md": {
+      "published_path": "backend/examples/baselines/zero_wam/zero_wam/wan_va/UPSTREAM.md",
+      "published_sha256": "00e2a92040f80e8d817e87a0351f17ef142235fdc672500a3a0eb39d1f0c290c"
+    },
+    "backend/examples/baselines/zero_wam/zero_wam/wan_va/__init__.py": {
+      "published_path": "backend/examples/baselines/zero_wam/zero_wam/wan_va/__init__.py",
+      "published_sha256": "1df3d749ecf519ba5466ed84e8ea8b607561ebef459b151d40e9afafbcaab175"
+    },
+    "backend/examples/baselines/zero_wam/zero_wam/wan_va/distributed/__init__.py": {
+      "published_path": "backend/examples/baselines/zero_wam/zero_wam/wan_va/distributed/__init__.py",
+      "published_sha256": "013ec40a0739296f1ba474036e5d46e06998f795daa0b7c3214773d885a3ab1a"
+    },
+    "backend/examples/baselines/zero_wam/zero_wam/wan_va/distributed/fsdp.py": {
+      "published_path": "backend/examples/baselines/zero_wam/zero_wam/wan_va/distributed/fsdp.py",
+      "published_sha256": "767aa5c070294f08f8480f474b5a956a6d894c43686e38d13222f3ea5f157222"
+    },
+    "backend/examples/baselines/zero_wam/zero_wam/wan_va/distributed/util.py": {
+      "published_path": "backend/examples/baselines/zero_wam/zero_wam/wan_va/distributed/util.py",
+      "published_sha256": "b8bf8afaf94fc8efbf1dc5e355210e9c08d75408bb73c3706ec5adafba3aeec7"
+    },
+    "backend/examples/baselines/zero_wam/zero_wam/wan_va/mcp.py": {
+      "published_path": "backend/examples/baselines/zero_wam/zero_wam/wan_va/mcp.py",
+      "published_sha256": "160c093085eebfaa8893f94bfd733df178f5f8421b91c8870af207568625ebbf"
+    },
+    "backend/examples/baselines/zero_wam/zero_wam/wan_va/modules/__init__.py": {
+      "published_path": "backend/examples/baselines/zero_wam/zero_wam/wan_va/modules/__init__.py",
+      "published_sha256": "2bc0eaa069761eba1f9b14d40e4405e920cdc90428ae616ab33111aab221a23a"
+    },
+    "backend/examples/baselines/zero_wam/zero_wam/wan_va/modules/icl_model.py": {
+      "published_path": "backend/examples/baselines/zero_wam/zero_wam/wan_va/modules/icl_model.py",
+      "published_sha256": "61a1f48177bbfab003a3fe197e245edc0d32db088fb0ef6b287a3975726764aa"
+    },
+    "backend/examples/baselines/zero_wam/zero_wam/wan_va/modules/model.py": {
+      "published_path": "backend/examples/baselines/zero_wam/zero_wam/wan_va/modules/model.py",
+      "published_sha256": "04ccbfd4bee7c3f3f28c08d00933a5948409e074f11c74c1a53e2b1dc585b7e5"
+    },
+    "backend/examples/baselines/zero_wam/zero_wam/wan_va/modules/utils.py": {
+      "published_path": "backend/examples/baselines/zero_wam/zero_wam/wan_va/modules/utils.py",
+      "published_sha256": "87d3250324af9006ea5c852a51b74b2f33ea9b5642cd45050722a0d6ebb7a23b"
+    },
+    "backend/examples/baselines/zero_wam/zero_wam/wan_va/semantic_ifp.py": {
+      "published_path": "backend/examples/baselines/zero_wam/zero_wam/wan_va/semantic_ifp.py",
+      "published_sha256": "0330f6a76afa18325b076294ede7dc383e644bcbe5bcbabea1a184368ab90db6"
+    },
+    "backend/examples/baselines/zero_wam/zero_wam/wan_va/train.py": {
+      "published_path": "backend/examples/baselines/zero_wam/zero_wam/wan_va/train.py",
+      "published_sha256": "f9caba7a972895f51bccfbcb2e699d66e72d2f7796d7b98ec8057ba871a9963d"
+    },
+    "backend/examples/baselines/zero_wam/zero_wam/wan_va/utils/__init__.py": {
+      "published_path": "backend/examples/baselines/zero_wam/zero_wam/wan_va/utils/__init__.py",
+      "published_sha256": "dd6cf386f5f8298bcc078b3cd63d83e94adeceb2074066d04ce4102512e01ad9"
+    },
+    "backend/examples/baselines/zero_wam/zero_wam/wan_va/utils/logging.py": {
+      "published_path": "backend/examples/baselines/zero_wam/zero_wam/wan_va/utils/logging.py",
+      "published_sha256": "3f894f412c096b15692b9adc5a3c4496447aee7e32a86f09562276fcbc2c7fd5"
+    },
+    "backend/examples/baselines/zero_wam/zero_wam/wan_va/utils/scheduler.py": {
+      "published_path": "backend/examples/baselines/zero_wam/zero_wam/wan_va/utils/scheduler.py",
+      "published_sha256": "9833300936d1001e5dfb0db76d5e0e131429685980de7b3c9716288ec28da7f1"
+    },
+    "backend/examples/baselines/zero_wam/zero_wam/wan_va/utils/utils.py": {
+      "published_path": "backend/examples/baselines/zero_wam/zero_wam/wan_va/utils/utils.py",
+      "published_sha256": "0ab2d716a9c9dc953487b9e1bef048d804bf989e67fc57629bc9ae5658906ebd"
+    },
+    "baseline/README.md": {
+      "published_path": "baseline/README.md",
+      "published_sha256": "0caa56228e03c013a8349a6d3902e3e2c50c52eb77ca0ece37899e98bd173c94"
+    },
+    "baseline/backend/LICENSE": {
+      "published_path": "baseline/backend/LICENSE",
+      "published_sha256": "04f6d73d1fb98878931fa9e79a8124ad884109bbdb31c0556ccdf389bbcd9df3"
+    },
+    "baseline/backend/examples/baselines/lerobot_dataset/normalizer.py": {
+      "published_path": "baseline/backend/examples/baselines/lerobot_dataset/normalizer.py",
+      "published_sha256": "6b7ca46c2d4d380f32803bf133e438bf88579507a10bd629603ea2fe9d1f59f4"
+    },
+    "baseline/backend/examples/baselines/zero_wam/__init__.py": {
+      "published_path": "baseline/backend/examples/baselines/zero_wam/__init__.py",
+      "published_sha256": "231a9054b01f335dba0e3881ad15fae0493d8d1d5dc847fc0093289d1235cfa0"
+    },
+    "baseline/backend/examples/baselines/zero_wam/zero_wam/__init__.py": {
+      "published_path": "baseline/backend/examples/baselines/zero_wam/zero_wam/__init__.py",
+      "published_sha256": "e07cec6a5529fcef671ac998bb2cb18b407d68bf18b6c803363664977aa90b58"
+    },
+    "baseline/backend/examples/baselines/zero_wam/zero_wam/action_space.py": {
+      "published_path": "baseline/backend/examples/baselines/zero_wam/zero_wam/action_space.py",
+      "published_sha256": "1e3d721f7bc7d95c6ba8f8d4d9d8e1232a5310c518f6a6bbf059c3e20bad5052"
+    },
+    "baseline/backend/examples/baselines/zero_wam/zero_wam/cache.py": {
+      "published_path": "baseline/backend/examples/baselines/zero_wam/zero_wam/cache.py",
+      "published_sha256": "bf22fc3c1e59317324a94779ddc0bc8dfd0d14d99ab60c4bccb526b144193d9d"
+    },
+    "baseline/backend/examples/baselines/zero_wam/zero_wam/config.py": {
+      "published_path": "baseline/backend/examples/baselines/zero_wam/zero_wam/config.py",
+      "published_sha256": "547caaa9a7c401cd1c53ce91e956e22306e4b403130ad448e0adc1d33e8752b5"
+    },
+    "baseline/backend/examples/baselines/zero_wam/zero_wam/dataset.py": {
+      "published_path": "baseline/backend/examples/baselines/zero_wam/zero_wam/dataset.py",
+      "published_sha256": "0a1d6501721ee96167de322c69fecd211f051cedf6fe25410aadcb8c4ae46c4b"
+    },
+    "baseline/backend/examples/baselines/zero_wam/zero_wam/lora.py": {
+      "published_path": "baseline/backend/examples/baselines/zero_wam/zero_wam/lora.py",
+      "published_sha256": "66f6695a7389e3efaa16b9abdf8f5fe4e0bb5738f68be834ce2ad8b8a97f1c7e"
+    },
+    "baseline/backend/examples/baselines/zero_wam/zero_wam/model.py": {
+      "published_path": "baseline/backend/examples/baselines/zero_wam/zero_wam/model.py",
+      "published_sha256": "bdcfc708d569002adc904988b256ad747c04990b53e4cb350ff033aae1c164ec"
+    },
+    "baseline/backend/examples/baselines/zero_wam/zero_wam/policy.py": {
+      "published_path": "baseline/backend/examples/baselines/zero_wam/zero_wam/policy.py",
+      "published_sha256": "aaddc06525576cfea8f68629e697843a89328fab785c3e0eb3bb2f2bc8ecae61"
+    },
+    "baseline/backend/examples/baselines/zero_wam/zero_wam/runtime.py": {
+      "published_path": "baseline/backend/examples/baselines/zero_wam/zero_wam/runtime.py",
+      "published_sha256": "5a496135e1c9eb8f794bd55dd5545458a2c943f4fa3149d16496f272849ae0b0"
+    },
+    "baseline/backend/examples/baselines/zero_wam/zero_wam/training.py": {
+      "published_path": "baseline/backend/examples/baselines/zero_wam/zero_wam/training.py",
+      "published_sha256": "c79ee66955db9da062daa4286866e43d009aad635592136c5206e790c0990c5e"
+    },
+    "baseline/backend/examples/baselines/zero_wam/zero_wam/wan_va/LICENSE.txt": {
+      "published_path": "baseline/backend/examples/baselines/zero_wam/zero_wam/wan_va/LICENSE.txt",
+      "published_sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4"
+    },
+    "baseline/backend/examples/baselines/zero_wam/zero_wam/wan_va/UPSTREAM.md": {
+      "published_path": "baseline/backend/examples/baselines/zero_wam/zero_wam/wan_va/UPSTREAM.md",
+      "published_sha256": "3ca0c5364118048a70a9cb63c034145aeaa85b3e009269342fa05908d562d2a5"
+    },
+    "baseline/backend/examples/baselines/zero_wam/zero_wam/wan_va/__init__.py": {
+      "published_path": "baseline/backend/examples/baselines/zero_wam/zero_wam/wan_va/__init__.py",
+      "published_sha256": "1df3d749ecf519ba5466ed84e8ea8b607561ebef459b151d40e9afafbcaab175"
+    },
+    "baseline/backend/examples/baselines/zero_wam/zero_wam/wan_va/distributed/__init__.py": {
+      "published_path": "baseline/backend/examples/baselines/zero_wam/zero_wam/wan_va/distributed/__init__.py",
+      "published_sha256": "013ec40a0739296f1ba474036e5d46e06998f795daa0b7c3214773d885a3ab1a"
+    },
+    "baseline/backend/examples/baselines/zero_wam/zero_wam/wan_va/distributed/fsdp.py": {
+      "published_path": "baseline/backend/examples/baselines/zero_wam/zero_wam/wan_va/distributed/fsdp.py",
+      "published_sha256": "0c2ff58b9660eb3e8da26bfe8b2af66c8afa68427d029e6151e45f1ada610b38"
+    },
+    "baseline/backend/examples/baselines/zero_wam/zero_wam/wan_va/distributed/util.py": {
+      "published_path": "baseline/backend/examples/baselines/zero_wam/zero_wam/wan_va/distributed/util.py",
+      "published_sha256": "b8bf8afaf94fc8efbf1dc5e355210e9c08d75408bb73c3706ec5adafba3aeec7"
+    },
+    "baseline/backend/examples/baselines/zero_wam/zero_wam/wan_va/mcp.py": {
+      "published_path": "baseline/backend/examples/baselines/zero_wam/zero_wam/wan_va/mcp.py",
+      "published_sha256": "160c093085eebfaa8893f94bfd733df178f5f8421b91c8870af207568625ebbf"
+    },
+    "baseline/backend/examples/baselines/zero_wam/zero_wam/wan_va/modules/__init__.py": {
+      "published_path": "baseline/backend/examples/baselines/zero_wam/zero_wam/wan_va/modules/__init__.py",
+      "published_sha256": "2bc0eaa069761eba1f9b14d40e4405e920cdc90428ae616ab33111aab221a23a"
+    },
+    "baseline/backend/examples/baselines/zero_wam/zero_wam/wan_va/modules/icl_model.py": {
+      "published_path": "baseline/backend/examples/baselines/zero_wam/zero_wam/wan_va/modules/icl_model.py",
+      "published_sha256": "ed2d0cc32b3c37a74753573870e7e9ff5950a514dcbfab38153db5825079cc08"
+    },
+    "baseline/backend/examples/baselines/zero_wam/zero_wam/wan_va/modules/model.py": {
+      "published_path": "baseline/backend/examples/baselines/zero_wam/zero_wam/wan_va/modules/model.py",
+      "published_sha256": "04ccbfd4bee7c3f3f28c08d00933a5948409e074f11c74c1a53e2b1dc585b7e5"
+    },
+    "baseline/backend/examples/baselines/zero_wam/zero_wam/wan_va/modules/utils.py": {
+      "published_path": "baseline/backend/examples/baselines/zero_wam/zero_wam/wan_va/modules/utils.py",
+      "published_sha256": "87d3250324af9006ea5c852a51b74b2f33ea9b5642cd45050722a0d6ebb7a23b"
+    },
+    "baseline/backend/examples/baselines/zero_wam/zero_wam/wan_va/train.py": {
+      "published_path": "baseline/backend/examples/baselines/zero_wam/zero_wam/wan_va/train.py",
+      "published_sha256": "dee4ed4c046231a4562e8f50f39c61effad4a3fb54dd492f2e239b1c521a64f9"
+    },
+    "baseline/backend/examples/baselines/zero_wam/zero_wam/wan_va/utils/__init__.py": {
+      "published_path": "baseline/backend/examples/baselines/zero_wam/zero_wam/wan_va/utils/__init__.py",
+      "published_sha256": "dd6cf386f5f8298bcc078b3cd63d83e94adeceb2074066d04ce4102512e01ad9"
+    },
+    "baseline/backend/examples/baselines/zero_wam/zero_wam/wan_va/utils/logging.py": {
+      "published_path": "baseline/backend/examples/baselines/zero_wam/zero_wam/wan_va/utils/logging.py",
+      "published_sha256": "3f894f412c096b15692b9adc5a3c4496447aee7e32a86f09562276fcbc2c7fd5"
+    },
+    "baseline/backend/examples/baselines/zero_wam/zero_wam/wan_va/utils/scheduler.py": {
+      "published_path": "baseline/backend/examples/baselines/zero_wam/zero_wam/wan_va/utils/scheduler.py",
+      "published_sha256": "9833300936d1001e5dfb0db76d5e0e131429685980de7b3c9716288ec28da7f1"
+    },
+    "baseline/backend/examples/baselines/zero_wam/zero_wam/wan_va/utils/utils.py": {
+      "published_path": "baseline/backend/examples/baselines/zero_wam/zero_wam/wan_va/utils/utils.py",
+      "published_sha256": "0ab2d716a9c9dc953487b9e1bef048d804bf989e67fc57629bc9ae5658906ebd"
+    },
+    "baseline/roboicl/backend_source_resources.json": {
+      "published_path": "baseline/roboicl/backend_source_resources.json",
+      "published_sha256": "88966c4f6274c974365daf5ce7b05ed7e78852e6a811b4db9abefcb3d58da150"
+    },
+    "baseline/roboicl/capacity.py": {
+      "published_path": "baseline/roboicl/capacity.py",
+      "published_sha256": "35c1121cd15d94affaeef8635fc099326b5e8622b6bbaea7bf7e2d121ea464bf"
+    },
+    "baseline/roboicl/infer.py": {
+      "published_path": "baseline/roboicl/infer.py",
+      "published_sha256": "f7e77f27e6e187efd7960eb6de5e733d2f0872261aec291f969d5db02d9a3832"
+    },
+    "baseline/roboicl/infer_checkpoint.py": {
+      "published_path": "baseline/roboicl/infer_checkpoint.py",
+      "published_sha256": "9fb83d407e6393fed208cac781dd30200e34eedda31ff694b27a05b5297a38b0"
+    },
+    "baseline/roboicl/pilot.py": {
+      "published_path": "baseline/roboicl/pilot.py",
+      "published_sha256": "57f0682aeaa8b56873d5ea8590b99f8f8333e89d152ad5a9bb083666be2a3767"
+    },
+    "baseline/roboicl/prepare.py": {
+      "published_path": "baseline/roboicl/prepare.py",
+      "published_sha256": "d29b3a452304eeab2c5732cffba02dd05782f7c7a176f4fcbdd7dc25ba766cd3"
+    },
+    "baseline/roboicl/train.py": {
+      "published_path": "baseline/roboicl/train.py",
+      "published_sha256": "03ce9d862c56f0c064926e08837b1961bd0a560575739d33919b730d3f70c886"
+    },
+    "baseline/roboicl/train_entry.py": {
+      "published_path": "baseline/roboicl/train_entry.py",
+      "published_sha256": "38f69eba48cf7866c649cafd87106037c648337ce5a1e6f41dc4db0d7aa2a8b1"
+    },
+    "ig_evaluation/README.md": {
+      "published_path": "ig_evaluation/README.md",
+      "published_sha256": "f14fa5bdad285ff41b148089590955c3412b6b2da427e1b01fee37b6c65dc8a9"
+    },
+    "ig_evaluation/runner.py": {
+      "published_path": "ig_evaluation/runner.py",
+      "published_sha256": "089aadd83d02ae3f25ac3aff50a47d675cf2c837706d6886eef341b8cfaa3951"
+    },
+    "requirements-server.txt": {
+      "published_path": "requirements-server.txt",
+      "published_sha256": "e010342de57f8cd0283d4bff9733e27d7a3ce5aa38de0993ea7bd0b53c756447"
+    },
+    "roboicl/backend_source_resources.json": {
+      "published_path": "roboicl/backend_source_resources.json",
+      "published_sha256": "88966c4f6274c974365daf5ce7b05ed7e78852e6a811b4db9abefcb3d58da150"
+    },
+    "roboicl/demo_attention.patch": {
+      "published_path": "roboicl/demo_attention.patch",
+      "published_sha256": "e3f4232e44ddc9646f06b0d0b4745fd5ee602fb8663b1067f18b42a5930ac3ad"
+    },
+    "roboicl/demo_attention.py": {
+      "published_path": "roboicl/demo_attention.py",
+      "published_sha256": "bd0d1acb2847e604279423d70d2923e90d6b1ea9719cf413bf38721474a43e81"
+    },
+    "roboicl/demo_features.py": {
+      "published_path": "roboicl/demo_features.py",
+      "published_sha256": "29b508f6655a3d0edd28a8d8d63672634afe5e9cf5b197204fc981b098cd7964"
+    },
+    "roboicl/evaluate_ig10k.py": {
+      "published_path": "roboicl/evaluate_ig10k.py",
+      "published_sha256": "72c0b8809e9fa58338b44f9e762f59d640d1a1e9c5095b944457e638f088fa69"
+    },
+    "roboicl/ig10k_data.py": {
+      "published_path": "roboicl/ig10k_data.py",
+      "published_sha256": "e211bde587aacc2c97e6d9d6b66f8e035bc79a88caa24873f99638fbdead445b"
+    },
+    "roboicl/ig10k_features.py": {
+      "published_path": "roboicl/ig10k_features.py",
+      "published_sha256": "5aa119dc092a417e2abc8f98cd41f2d59b82a68236cad73f221e14bd94678dab"
+    },
+    "roboicl/infer_checkpoint.py": {
+      "published_path": "roboicl/infer_checkpoint.py",
+      "published_sha256": "5c3bc1f119ce57ad22c7575a82db6283f3756601891126cc5f912421fce2a632"
+    },
+    "roboicl/pilot.py": {
+      "published_path": "roboicl/pilot.py",
+      "published_sha256": "ca012cc439872acd68c2a3479cd81f9f2db2f3837d14972e4208f6ff5bac7336"
+    },
+    "roboicl/prepare.py": {
+      "published_path": "roboicl/prepare.py",
+      "published_sha256": "12fc63a119b5506a1a94625a3a89306428c6641996bcab1c945165c909f7c7c2"
+    },
+    "roboicl/publish_epochs.py": {
+      "published_path": "roboicl/publish_epochs.py",
+      "published_sha256": "fbdfda24d01b7a307486def4a6ec5b9a259c4f6ae43b97445e6f6e292bedc299"
+    },
+    "roboicl/query_views.py": {
+      "published_path": "roboicl/query_views.py",
+      "published_sha256": "8446975213f498a51bcfdb30e97dfa561a6c5ae7be97e7c23d0b9936956f1d90"
+    },
+    "roboicl/semantic_features.py": {
+      "published_path": "roboicl/semantic_features.py",
+      "published_sha256": "c5e272f100929d8bac0ca53e3df7aea1fe532888d15b17a16b4b601d1ac83c04"
+    },
+    "roboicl/train.py": {
+      "published_path": "roboicl/train.py",
+      "published_sha256": "626c437d1e21c9ba0e59c5e2950f86a947084551e912dcf36684a21ecde31d19"
+    },
+    "roboicl/train_entry.py": {
+      "published_path": "roboicl/train_entry.py",
+      "published_sha256": "d565d46f5892e02009ec80ae6e97bad5ca7558be3adc16f294927fdf99ebb92d"
+    },
+    "robotwin_b/README.md": {
+      "published_path": "robotwin_b/README.md",
+      "published_sha256": "119d81c7aca681981b2822caa9ea1461fd412908570e1f5f251d727ab05353f3"
+    },
+    "robotwin_b/data.py": {
+      "published_path": "robotwin_b/data.py",
+      "published_sha256": "2f770784c355dc8775d9bf0642f9a333145a4177869678f91651c1d1acf814d9"
+    },
+    "robotwin_b/feature_cache.py": {
+      "published_path": "robotwin_b/feature_cache.py",
+      "published_sha256": "6baf7ad395522d70e2a5c21d717ac6d62872bf4df40d14929a9929768bc2904a"
+    },
+    "robotwin_b/launch.sh": {
+      "published_path": "robotwin_b/launch.sh",
+      "published_sha256": "55123fd9e083ba6c0de122689991d5bb6cdefcc8fe0463577dd216c576344c25"
+    },
+    "robotwin_b/native.py": {
+      "published_path": "robotwin_b/native.py",
+      "published_sha256": "ff5544efd0cc41ff7959f0660155b5f5a3dc35f9f8a7a17aadbeae277ba80be7"
+    },
+    "robotwin_b/publish.py": {
+      "published_path": "robotwin_b/publish.py",
+      "published_sha256": "49184dd596db5cede4b1f54070b3484d031b6a65b2e82f1fd6f0c9253488ad93"
+    },
+    "robotwin_b/train.py": {
+      "published_path": "robotwin_b/train.py",
+      "published_sha256": "0eddd547a5dfd54f2ddfa426697fb06bb639b91a620db32a7e5de8382ad4d5a0"
+    },
+    "robotwin_b/train_distributed.py": {
+      "published_path": "robotwin_b/train_distributed.py",
+      "published_sha256": "95e7c91364f9c95b334cfd509e69511dc6c5f609382c6d86d694e0c5e3ca3a29"
+    },
+    "robotwin_b/verify.py": {
+      "published_path": "robotwin_b/verify.py",
+      "published_sha256": "e400d5121accdb9be7ec815297a8886f5b5745948057490cd2402995f452d36e"
     }
   },
   "publication_notes": [
     "Root README replaced with handoff index; original retained as SOURCE_README.md when present.",
     "Git ignore/attributes describe source-only publication.",
-    "ACT prepare accepts the frozen six-episode RGB exclusion contract before fitting statistics."
+    "ACT prepare accepts the frozen six-episode RGB exclusion contract before fitting statistics.",
+    "Published text is normalized to LF by .gitattributes; published SHA256 values describe Git blobs."
   ]
 }
