@@ -1,0 +1,6 @@
+place_object_scale
+stamp_seal
+move_stapler_pad
+place_bread_basket
+place_empty_cup
+stack_blocks_three

@@ -1,0 +1,38 @@
+{
+  "component": "act",
+  "source_commit": "045d5806f91518fdaa7d1c8944efe050028b66d8",
+  "source_repository": "https://github.com/xieshanrui/RoboICL",
+  "source_subrepository": "robokata",
+  "published_as": "Isolated public source snapshot; original repositories and histories left unchanged.",
+  "selected_paths": [
+    "act_robotwin"
+  ],
+  "excluded_editor_ci_notebooks": [],
+  "original_file_sha256": {
+    "act_robotwin/README.md": "753dc62f6a0e73e6224ab0ecfd1ddff18de0f32c178367ec29c940aaa9b61f49",
+    "act_robotwin/__init__.py": "8f74f386c843caf148715fcc9d2763daa1b75663cb89b0ff31a87a23bf0b1bc4",
+    "act_robotwin/bridge.py": "4be3745bc647adeed0c11f2c2ce922cc87cc5b369acc61c962777aac44ec5aae",
+    "act_robotwin/cache_demo.py": "b0ec01311aa704bbe5b9f93c4d365f478601ef8aea98dcdf2a3bea2245770475",
+    "act_robotwin/data.py": "9a8e792e89a297905d8622086d61b5b53ea8f7a117207a78d6a4fa33c5684279",
+    "act_robotwin/eval_tasks.txt": "f4884dfff85e589604fca196ec17a0b05267c977f30d6ab15296c627216d5001",
+    "act_robotwin/infer.py": "3a86831f8701c003ef1144d79a2e9845646af74ef6e1e293a7ad74d3d737a558",
+    "act_robotwin/model.py": "712d3f0b53918c0a1b1d6d4e88a08fc0401f991f78f7175b3ad96445100e9a86",
+    "act_robotwin/policy.py": "9dd5ba88d0b2cc93dabfa3951eb4dc995201c5dfc8b8a0da2dc07dda392fcbb8",
+    "act_robotwin/prepare.py": "7a59c0ce9efa1ff30b9535c27636b9b8667f945b4ec0bda2c737203fd505a854",
+    "act_robotwin/prepare_eval.py": "2d49c39dfe9a7d31478a343dbb341a6f886e65c31863693745b8e76fef731499",
+    "act_robotwin/protocol.py": "d0da7fcb22c284fdb8e41a1c82f632ca99c753d0ddb803695c1995b8e148b22b",
+    "act_robotwin/train.py": "ac4cd4c552d09bf50f581abcc3c1b3fbc6966c7cf00001400a3f154a28db4ec3"
+  },
+  "upstream_licenses": "Retained in source; see THIRD_PARTY.md on main.",
+  "publication_changes": {
+    "act_robotwin/prepare.py": {
+      "published_path": "act_robotwin/prepare.py",
+      "published_sha256": "064a7ed513217d0be0ce24196faeabca82af85f208c5a57e3c2ef589cad1e623"
+    }
+  },
+  "publication_notes": [
+    "Root README replaced with handoff index; original retained as SOURCE_README.md when present.",
+    "Git ignore/attributes describe source-only publication.",
+    "ACT prepare accepts the frozen six-episode RGB exclusion contract before fitting statistics."
+  ]
+}
