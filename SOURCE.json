@@ -25,14 +25,63 @@
   },
   "upstream_licenses": "Retained in source; see THIRD_PARTY.md on main.",
   "publication_changes": {
+    "act_robotwin/README.md": {
+      "published_path": "act_robotwin/README.md",
+      "published_sha256": "ff6a25b5b2a96f64e3b42eb97bd5c7426f70a0685985a36cf61ef275fa55ba9c"
+    },
+    "act_robotwin/__init__.py": {
+      "published_path": "act_robotwin/__init__.py",
+      "published_sha256": "4aa1b87637d2a1a2e0a68665dd5a4c3fff43c26a67473a0c68d80a4f22788c2f"
+    },
+    "act_robotwin/bridge.py": {
+      "published_path": "act_robotwin/bridge.py",
+      "published_sha256": "f5774873f016cc0b4dc00e456a4676868f0f91228f812ede336d2db54ecea3bf"
+    },
+    "act_robotwin/cache_demo.py": {
+      "published_path": "act_robotwin/cache_demo.py",
+      "published_sha256": "bbed5f4f3702607e457ac26519f14e6234f4043f0b9965307d7402d13ee7b794"
+    },
+    "act_robotwin/data.py": {
+      "published_path": "act_robotwin/data.py",
+      "published_sha256": "7610296e6bca249b83eaa0ac1367ab2c99d32718181b1f16d01634b3da5f194b"
+    },
+    "act_robotwin/eval_tasks.txt": {
+      "published_path": "act_robotwin/eval_tasks.txt",
+      "published_sha256": "5ee6ca2c1635ce8b67c1874b8a3488e46378d066fc90c6cbf2d0144424067f2f"
+    },
+    "act_robotwin/infer.py": {
+      "published_path": "act_robotwin/infer.py",
+      "published_sha256": "74ac3ca049441f1c01f825ff08c0188172906595ead3421943d3dabdb381a91e"
+    },
+    "act_robotwin/model.py": {
+      "published_path": "act_robotwin/model.py",
+      "published_sha256": "aef5303abcce2db1d92bcfc1edb0ffa7e9475552c6086cc1c4427ec4cef3cf2d"
+    },
+    "act_robotwin/policy.py": {
+      "published_path": "act_robotwin/policy.py",
+      "published_sha256": "0255c4ed9827af38d787c9d2483002778f3f81fe50d8f46edd415c26c21a8899"
+    },
     "act_robotwin/prepare.py": {
       "published_path": "act_robotwin/prepare.py",
       "published_sha256": "064a7ed513217d0be0ce24196faeabca82af85f208c5a57e3c2ef589cad1e623"
+    },
+    "act_robotwin/prepare_eval.py": {
+      "published_path": "act_robotwin/prepare_eval.py",
+      "published_sha256": "fc86a39adbf41e6c0a7185843804c085f057959094f1368d7d12841c16523c2b"
+    },
+    "act_robotwin/protocol.py": {
+      "published_path": "act_robotwin/protocol.py",
+      "published_sha256": "9121b5a4d31dce3e101b38634e321b9f4a02cb53091a9f03017791c1cd0d4f21"
+    },
+    "act_robotwin/train.py": {
+      "published_path": "act_robotwin/train.py",
+      "published_sha256": "d08a6f622697c04679e8f0940a7f3c9ab97666cff0d888de1aff3f020d4ed082"
     }
   },
   "publication_notes": [
     "Root README replaced with handoff index; original retained as SOURCE_README.md when present.",
     "Git ignore/attributes describe source-only publication.",
-    "ACT prepare accepts the frozen six-episode RGB exclusion contract before fitting statistics."
+    "ACT prepare accepts the frozen six-episode RGB exclusion contract before fitting statistics.",
+    "Published text is normalized to LF by .gitattributes; published SHA256 values describe Git blobs."
   ]
 }
