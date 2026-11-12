@@ -177,18 +177,619 @@
   },
   "upstream_licenses": "Retained in source; see THIRD_PARTY.md on main.",
   "publication_changes": {
+    ".dockerignore": {
+      "published_path": ".dockerignore",
+      "published_sha256": "e23eb8cbfb8fb15bf838725cfbad4bf098960edf829b9bce778f8ef835e6fff4"
+    },
     ".gitignore": {
       "published_path": ".gitignore",
-      "published_sha256": "cd58932ffad3d56db2b519e9dc021b01710d55f34ceed7ca26628e86db6dd83f"
+      "published_sha256": "8e9c10f5963cbf0af4682da94917b7424bb4603cdfc89296b354846c71aa18b3"
+    },
+    ".pre-commit-config.yaml": {
+      "published_path": ".pre-commit-config.yaml",
+      "published_sha256": "5cb58628e068c3a25facd810095cb0e8f80ae7558d0a67ba197c01d9513baec5"
+    },
+    "CONTRIBUTING.md": {
+      "published_path": "CONTRIBUTING.md",
+      "published_sha256": "8da333112457fd84815551065bd3a3f80160054bbe89cc5794f57bfba2d50a89"
+    },
+    "LICENSE": {
+      "published_path": "LICENSE",
+      "published_sha256": "43070e2d4e532684de521b885f385d0841030efa2b1a20bafb76133a5e1379c1"
+    },
+    "LICENSE_GEMMA.txt": {
+      "published_path": "LICENSE_GEMMA.txt",
+      "published_sha256": "3e2c24001f9ef57bf7ec959a3658fbb49cdad113cdf394c264da9d16f9bdd132"
     },
     "README.md": {
       "published_path": "SOURCE_README.md",
-      "published_sha256": "c1cdf5cd3d35a6e55e947be5a0040fec562cb990d4e208e8f52f487e96a29a47"
+      "published_sha256": "ce24bed75ef7363cc9a4590e07195f5b0afd10ab7e465fce08f41afa3d578492"
+    },
+    "docs/docker.md": {
+      "published_path": "docs/docker.md",
+      "published_sha256": "5f6180bf09f1eed5c3705cf7e08536b7fd5d4f75b3ba0d938b932eff73ce4053"
+    },
+    "docs/norm_stats.md": {
+      "published_path": "docs/norm_stats.md",
+      "published_sha256": "62e4a39ea7fcdae53b4466942db348c3e38fc016b7f7a5273cafed649ebe614b"
+    },
+    "docs/remote_inference.md": {
+      "published_path": "docs/remote_inference.md",
+      "published_sha256": "5b62754525100f958a1bb5bcd0f5ea406c8d120e582c4785742072ccef79e24c"
+    },
+    "examples/aloha_real/Dockerfile": {
+      "published_path": "examples/aloha_real/Dockerfile",
+      "published_sha256": "f863f70ad7c3359872602c7800abd210033f7ff480aee42279887e1a2ceb1ddf"
+    },
+    "examples/aloha_real/README.md": {
+      "published_path": "examples/aloha_real/README.md",
+      "published_sha256": "4cbebd407518610b5debca317025f21d6c9af5fdcc241f7c6a3d98fc1c3a4f03"
+    },
+    "examples/aloha_real/compose.yml": {
+      "published_path": "examples/aloha_real/compose.yml",
+      "published_sha256": "94784b2314487217614f852fcc9bd74bbeb82d910e01faf72588415b7a4ff212"
+    },
+    "examples/aloha_real/constants.py": {
+      "published_path": "examples/aloha_real/constants.py",
+      "published_sha256": "18cc0fd1ea80a32d970b637ae23aba255a06391d137afdc81664a78f87cb26e7"
+    },
+    "examples/aloha_real/convert_aloha_data_to_lerobot.py": {
+      "published_path": "examples/aloha_real/convert_aloha_data_to_lerobot.py",
+      "published_sha256": "5380876e2bd9e2b4294ebf818f7d18378090291cf4aae3481f08e0ed254a3284"
+    },
+    "examples/aloha_real/env.py": {
+      "published_path": "examples/aloha_real/env.py",
+      "published_sha256": "044494859ba6492cbe256c3f80bd1334734a98dc0181248a576777082934b107"
+    },
+    "examples/aloha_real/main.py": {
+      "published_path": "examples/aloha_real/main.py",
+      "published_sha256": "a6195287f804015d928793bcbfab427e21933745ce1d53224671c9e501182d14"
+    },
+    "examples/aloha_real/real_env.py": {
+      "published_path": "examples/aloha_real/real_env.py",
+      "published_sha256": "fd88593e5c6d924ed0060d5b03491fbf9db7a093e783eae217ede5c694f35e41"
+    },
+    "examples/aloha_real/requirements.in": {
+      "published_path": "examples/aloha_real/requirements.in",
+      "published_sha256": "9a67592dc156f9d34b19459e8488c646112c5b2d72e6e095dd62bba3fda7bd29"
+    },
+    "examples/aloha_real/requirements.txt": {
+      "published_path": "examples/aloha_real/requirements.txt",
+      "published_sha256": "f1f2f8c5ed31398f0fbecf8c707042747d887fe7e8a4999222a8fecb2e8c7550"
+    },
+    "examples/aloha_real/robot_utils.py": {
+      "published_path": "examples/aloha_real/robot_utils.py",
+      "published_sha256": "302608dc0f3c4e1c9338eaf3a5299eb91971a533575a3a9ccdd51f1b70e1c232"
+    },
+    "examples/aloha_real/video_display.py": {
+      "published_path": "examples/aloha_real/video_display.py",
+      "published_sha256": "d988e685893cbfcacce25aed3cbedf312dd56dce939a720cd436025f6e97b626"
+    },
+    "examples/aloha_sim/Dockerfile": {
+      "published_path": "examples/aloha_sim/Dockerfile",
+      "published_sha256": "f61c9cc48db800726638b8ff3dd66650f09494d375064bf9064142156ecdc089"
+    },
+    "examples/aloha_sim/README.md": {
+      "published_path": "examples/aloha_sim/README.md",
+      "published_sha256": "3e25e00b1fb746176cfab0b74e8edad4a2c182f6fe1145f57d68bb67b38e5609"
+    },
+    "examples/aloha_sim/compose.yml": {
+      "published_path": "examples/aloha_sim/compose.yml",
+      "published_sha256": "17d39f772921047c62256b0771b019e69467457bccef557e954b6cd868e11c1b"
+    },
+    "examples/aloha_sim/env.py": {
+      "published_path": "examples/aloha_sim/env.py",
+      "published_sha256": "e851d43c7ade89771ae5c8821a7e2dd7a9f1f14702e96f6f6f52afc95fc887d2"
+    },
+    "examples/aloha_sim/main.py": {
+      "published_path": "examples/aloha_sim/main.py",
+      "published_sha256": "91b27ce04c741bb07355dcf650371caffa95e2d08fae2c089b3cbf899c8385f7"
+    },
+    "examples/aloha_sim/requirements.in": {
+      "published_path": "examples/aloha_sim/requirements.in",
+      "published_sha256": "7c9eb0a84ea9a2f015c2bdd59837bfc38884490a3fb9348cb476922b54ae7f18"
+    },
+    "examples/aloha_sim/requirements.txt": {
+      "published_path": "examples/aloha_sim/requirements.txt",
+      "published_sha256": "c655f18df0319eb5c0d0c4feff6029a103b24594967b556073d12acae0aca68c"
+    },
+    "examples/aloha_sim/saver.py": {
+      "published_path": "examples/aloha_sim/saver.py",
+      "published_sha256": "b8cb15e34610aa3f80ec1867826830843a554f8059cf963d1ec9465406b2d0ea"
+    },
+    "examples/convert_jax_model_to_pytorch.py": {
+      "published_path": "examples/convert_jax_model_to_pytorch.py",
+      "published_sha256": "a1a2683c0798d725db37f4700d02c77337d442f2de844874ecc013303d2a41b4"
+    },
+    "examples/droid/README.md": {
+      "published_path": "examples/droid/README.md",
+      "published_sha256": "6f64c246a78a5c203b4b032db9b6b6daea33e98d91ecdac1a3da30a9863290d0"
+    },
+    "examples/droid/README_train.md": {
+      "published_path": "examples/droid/README_train.md",
+      "published_sha256": "e742f04cc0852a8bf86c4941dbaa6b436ab906bfca08c612371a50462acf5e4a"
+    },
+    "examples/droid/compute_droid_nonidle_ranges.py": {
+      "published_path": "examples/droid/compute_droid_nonidle_ranges.py",
+      "published_sha256": "9746b4a0033fea8c00139a9887830129486cf69ab99fc8a705656b9603cd34fe"
+    },
+    "examples/droid/convert_droid_data_to_lerobot.py": {
+      "published_path": "examples/droid/convert_droid_data_to_lerobot.py",
+      "published_sha256": "35bc003998f1abd857f2f7e7585c57c53d1db14675fdcb5ef32178491d90eec9"
+    },
+    "examples/droid/main.py": {
+      "published_path": "examples/droid/main.py",
+      "published_sha256": "4bdbdbdde068ebb30ba90d62bf8c51df156b4baae5c5ac5870c08f7b03d4afc2"
+    },
+    "examples/libero/Dockerfile": {
+      "published_path": "examples/libero/Dockerfile",
+      "published_sha256": "71bd6fcdfef3a059d417d9781dbdc3cdcbb1ddb2a557a626a2bf589777017173"
+    },
+    "examples/libero/README.md": {
+      "published_path": "examples/libero/README.md",
+      "published_sha256": "b6f169d70a43edaba0d0b0fa93b3c9156d2f4dc5ba578b2002cf4355748e5464"
+    },
+    "examples/libero/compose.yml": {
+      "published_path": "examples/libero/compose.yml",
+      "published_sha256": "2a4e444b6fd0c351ad04138c9ca30673e4aea7183ee9fc7dd6a0b01ea3f0c93b"
+    },
+    "examples/libero/convert_libero_data_to_lerobot.py": {
+      "published_path": "examples/libero/convert_libero_data_to_lerobot.py",
+      "published_sha256": "199c309a601f23fa120e0c9ca3d8f7f2dba525924a60e79906fca4c6b9f03602"
+    },
+    "examples/libero/main.py": {
+      "published_path": "examples/libero/main.py",
+      "published_sha256": "d53748c95804ada559e3ca867305b8f755d8651c4c7f4e2723ef80aea55a3943"
+    },
+    "examples/libero/requirements.in": {
+      "published_path": "examples/libero/requirements.in",
+      "published_sha256": "c663401736ee0fd80aa4e9a36415969c25db6e40283c370fb15544138c49452a"
+    },
+    "examples/libero/requirements.txt": {
+      "published_path": "examples/libero/requirements.txt",
+      "published_sha256": "821008c9804ec835bccee66ab93c177f47a62a845c010497b5aea06829331727"
+    },
+    "examples/robotwin_text/README.md": {
+      "published_path": "examples/robotwin_text/README.md",
+      "published_sha256": "34e5d30ed89d65513527776059d1f54a37dabb86fa12674c1af4cdd4a6a475c9"
+    },
+    "examples/robotwin_text/policy.py": {
+      "published_path": "examples/robotwin_text/policy.py",
+      "published_sha256": "26a38663140454c942920677b290671922138ae2adf02fd4157cb35af78dd40f"
+    },
+    "examples/robotwin_text/train.py": {
+      "published_path": "examples/robotwin_text/train.py",
+      "published_sha256": "1e533b82a69c2da8603e6b949396508cfeb435c5895c76994d6ca43d55e6c260"
+    },
+    "examples/segmented_demo/README.md": {
+      "published_path": "examples/segmented_demo/README.md",
+      "published_sha256": "900c8038039645ef5bb2a19006662c3090330d61e8a6c8bf53d8d77e1616498d"
+    },
+    "examples/segmented_demo/cache_fixed.py": {
+      "published_path": "examples/segmented_demo/cache_fixed.py",
+      "published_sha256": "b25c1bca61a0855e712c9f8a571434c8cf367e6370592737fe6b9a5c2b78e2c3"
+    },
+    "examples/segmented_demo/cache_vision.py": {
+      "published_path": "examples/segmented_demo/cache_vision.py",
+      "published_sha256": "1172b84cc822137f0732bed4418f7fb1972de0da63ad266ade135921144254a2"
+    },
+    "examples/segmented_demo/config.example.json": {
+      "published_path": "examples/segmented_demo/config.example.json",
+      "published_sha256": "d660244b0b7a78a50c5596abfd0d4f99c1d3d69d123ba3b7a98f56750b7a35dd"
+    },
+    "examples/segmented_demo/configure.py": {
+      "published_path": "examples/segmented_demo/configure.py",
+      "published_sha256": "0d8d9815077bb7e28238262281803faa026a58b027463c79bce02de8ba4c872e"
+    },
+    "examples/segmented_demo/data.py": {
+      "published_path": "examples/segmented_demo/data.py",
+      "published_sha256": "0fae085fdf1b65e5a3da115be937118eb80c9868fb3d8619f78ece15444cc8ca"
+    },
+    "examples/segmented_demo/evaluate.py": {
+      "published_path": "examples/segmented_demo/evaluate.py",
+      "published_sha256": "5644d0a058736b0e4098fff85bd42c4a6f5b1d432911039bfefebb2fcc8b3e08"
+    },
+    "examples/segmented_demo/frame_data.py": {
+      "published_path": "examples/segmented_demo/frame_data.py",
+      "published_sha256": "fe29f259e59b168d25cd191ed476f85a8a7456ebd2e7b4574f76318a6fb58d8e"
+    },
+    "examples/segmented_demo/pipe_client.py": {
+      "published_path": "examples/segmented_demo/pipe_client.py",
+      "published_sha256": "2d54b26ba767537d204a0e503674c9cfdb5ac5e3b89f8c77f43a9c3405c07ffb"
+    },
+    "examples/segmented_demo/prepare_transfer.py": {
+      "published_path": "examples/segmented_demo/prepare_transfer.py",
+      "published_sha256": "21cecaf3fe2232f8a71f6eec709f0053567cf4ba45fcb700fa93c3cb11861a85"
+    },
+    "examples/segmented_demo/prepare_transformers.py": {
+      "published_path": "examples/segmented_demo/prepare_transformers.py",
+      "published_sha256": "30bc60599a5f37a5fa9334b7feae4f631048ddb0432bd33b6deee5b15de5c273"
+    },
+    "examples/segmented_demo/protocol.py": {
+      "published_path": "examples/segmented_demo/protocol.py",
+      "published_sha256": "4d25a8031922d571f749445889a205242d51ac9fa6ff0d6a57ecdb18c81dbd51"
+    },
+    "examples/segmented_demo/requirements-linux-py312.txt": {
+      "published_path": "examples/segmented_demo/requirements-linux-py312.txt",
+      "published_sha256": "0e1250076f6349e367e38dc1fbe7831d2a8be1479298eed694a12a4608d4c56f"
+    },
+    "examples/segmented_demo/train.py": {
+      "published_path": "examples/segmented_demo/train.py",
+      "published_sha256": "d93be8d9c1051be60ef78b005c42d55d0bd972967a55ec489251b20b7d0646fd"
+    },
+    "examples/segmented_demo/transfer_data.py": {
+      "published_path": "examples/segmented_demo/transfer_data.py",
+      "published_sha256": "c3213e0bc7cec44cab180d598bfbbea128b55e599028108477bad70dd4a21204"
+    },
+    "examples/segmented_demo/transfer_policy.py": {
+      "published_path": "examples/segmented_demo/transfer_policy.py",
+      "published_sha256": "011af3c7ff2830f6a03426886ee0e1df4bb88790185a0d51ee646016b64859d7"
+    },
+    "examples/segmented_demo/verify_cache.py": {
+      "published_path": "examples/segmented_demo/verify_cache.py",
+      "published_sha256": "c1a69957ab4eb3c023decf58cf5e7866cd4c8cf01de8082ba8cac29da7de6a0f"
+    },
+    "examples/segmented_demo/worker.py": {
+      "published_path": "examples/segmented_demo/worker.py",
+      "published_sha256": "68c5f01ae0cf91854a643028b12259f558e22253ca88becb7249faab2e52bff9"
+    },
+    "examples/simple_client/Dockerfile": {
+      "published_path": "examples/simple_client/Dockerfile",
+      "published_sha256": "fac5ee3a4b2ab753f3b2f0251e3c1a054b6cbf7edb7934b1e9eb3f5943722bcf"
+    },
+    "examples/simple_client/README.md": {
+      "published_path": "examples/simple_client/README.md",
+      "published_sha256": "226a47bce1b8ad74967552cbe42afb711076b48b18a6cc36555cc5f60627e3a6"
+    },
+    "examples/simple_client/compose.yml": {
+      "published_path": "examples/simple_client/compose.yml",
+      "published_sha256": "545424c7c0d6ded3179f16ccb680f88931e82c74c27add2a35aa4b5f83c655fa"
+    },
+    "examples/simple_client/main.py": {
+      "published_path": "examples/simple_client/main.py",
+      "published_sha256": "3f4445762376cfa25ce0812ecaacc225f4ddc7d2ab66d219563d6150803c6767"
+    },
+    "examples/simple_client/requirements.in": {
+      "published_path": "examples/simple_client/requirements.in",
+      "published_sha256": "1dd6cf5d680303d89414c7d4dd091bb8b0362a497c779982b3f30e745b018e83"
+    },
+    "examples/simple_client/requirements.txt": {
+      "published_path": "examples/simple_client/requirements.txt",
+      "published_sha256": "87be8497bb0b14a910f8430c9dd18921d0a75c950610fb4b9de0adbb67cf216b"
+    },
+    "examples/ur5/README.md": {
+      "published_path": "examples/ur5/README.md",
+      "published_sha256": "fc5b84486abd83ba0a6116415c19859f73c64d7575936cec3b7188791b17f664"
+    },
+    "packages/openpi-client/pyproject.toml": {
+      "published_path": "packages/openpi-client/pyproject.toml",
+      "published_sha256": "cacd55394787338bef9d6e7c2e4ecaefd0bc90b3362ac48fe20d9a7f201147d6"
+    },
+    "packages/openpi-client/src/openpi_client/__init__.py": {
+      "published_path": "packages/openpi-client/src/openpi_client/__init__.py",
+      "published_sha256": "91447944015cec709e8aa7655f7e9d64e1e4508e7023a57fe3746911c0fc6fed"
+    },
+    "packages/openpi-client/src/openpi_client/action_chunk_broker.py": {
+      "published_path": "packages/openpi-client/src/openpi_client/action_chunk_broker.py",
+      "published_sha256": "019b9d69cb26cc681331a2f95dbe60a2cc7b02d6d309c5d15b6457ab39798234"
+    },
+    "packages/openpi-client/src/openpi_client/base_policy.py": {
+      "published_path": "packages/openpi-client/src/openpi_client/base_policy.py",
+      "published_sha256": "88e98e0f06293f3c4767db675061664c4bba12f87242ba1e64377d1b8de8069e"
+    },
+    "packages/openpi-client/src/openpi_client/image_tools.py": {
+      "published_path": "packages/openpi-client/src/openpi_client/image_tools.py",
+      "published_sha256": "d48b4bd7f44e79fe6db8a8e07c9161144fa250be686e1245014a8b47e6171977"
+    },
+    "packages/openpi-client/src/openpi_client/image_tools_test.py": {
+      "published_path": "packages/openpi-client/src/openpi_client/image_tools_test.py",
+      "published_sha256": "4df4b0ba0b95ba5e47160039c3e837a64d50c802b419a588211dffbaa732589c"
+    },
+    "packages/openpi-client/src/openpi_client/msgpack_numpy.py": {
+      "published_path": "packages/openpi-client/src/openpi_client/msgpack_numpy.py",
+      "published_sha256": "c04568948fcee52b691e3be4b6cffb759f7e79ad67530fcd5d23095a0d13c057"
+    },
+    "packages/openpi-client/src/openpi_client/msgpack_numpy_test.py": {
+      "published_path": "packages/openpi-client/src/openpi_client/msgpack_numpy_test.py",
+      "published_sha256": "2c6dd236720dae716d7bdf842b7d506a165e9563bf9d4376c95289269adcb973"
+    },
+    "packages/openpi-client/src/openpi_client/runtime/agent.py": {
+      "published_path": "packages/openpi-client/src/openpi_client/runtime/agent.py",
+      "published_sha256": "b559885afd9645a91b9b6ee12a28513295474f987d11b16610fc0479dbe6de5b"
+    },
+    "packages/openpi-client/src/openpi_client/runtime/agents/policy_agent.py": {
+      "published_path": "packages/openpi-client/src/openpi_client/runtime/agents/policy_agent.py",
+      "published_sha256": "c4d63952d1954bd4b72a3122223df36794812fea74cf1c7023433b5a90473c1c"
+    },
+    "packages/openpi-client/src/openpi_client/runtime/environment.py": {
+      "published_path": "packages/openpi-client/src/openpi_client/runtime/environment.py",
+      "published_sha256": "1c12e5054b3401dec5f1f8b71eef0f625cb60e2b50784dcf19afa32c77107a7e"
+    },
+    "packages/openpi-client/src/openpi_client/runtime/runtime.py": {
+      "published_path": "packages/openpi-client/src/openpi_client/runtime/runtime.py",
+      "published_sha256": "3daa242a9ce61ffb210789ef3ba6b1e3cade9de757fcd36af7b174c530345ea8"
+    },
+    "packages/openpi-client/src/openpi_client/runtime/subscriber.py": {
+      "published_path": "packages/openpi-client/src/openpi_client/runtime/subscriber.py",
+      "published_sha256": "d269a2af8ec4056beb310e5c3c97d4468af01549c7ef80dd905652d8ac64f85b"
+    },
+    "packages/openpi-client/src/openpi_client/websocket_client_policy.py": {
+      "published_path": "packages/openpi-client/src/openpi_client/websocket_client_policy.py",
+      "published_sha256": "36557cb0b91ccf31cd4fb4b508306850d76ed0feb4028dac5182d0f5a5d88005"
+    },
+    "pyproject.toml": {
+      "published_path": "pyproject.toml",
+      "published_sha256": "e1f457bd81622a47a4c4de17b92815977ac5fcd40116bec92398eb400bf76483"
+    },
+    "scripts/compute_norm_stats.py": {
+      "published_path": "scripts/compute_norm_stats.py",
+      "published_sha256": "8a64773495b714d6b18eded99d7cf87eb19d1bb3dd4a9fb47172b03de5d56a38"
+    },
+    "scripts/docker/compose.yml": {
+      "published_path": "scripts/docker/compose.yml",
+      "published_sha256": "43034f5049bfc4653cb6fbb99afc50a0478f333d158c37011102a7fbf465c550"
+    },
+    "scripts/docker/install_docker_ubuntu22.sh": {
+      "published_path": "scripts/docker/install_docker_ubuntu22.sh",
+      "published_sha256": "1e143d1165e3cff184a5161d6c1b0c7634a507068167bde6aa7397c3926f7f38"
+    },
+    "scripts/docker/install_nvidia_container_toolkit.sh": {
+      "published_path": "scripts/docker/install_nvidia_container_toolkit.sh",
+      "published_sha256": "28ab1c1e3d572402e8f4aa11a48cc8f9df876360f8a58f8b10df723cda93531d"
+    },
+    "scripts/docker/serve_policy.Dockerfile": {
+      "published_path": "scripts/docker/serve_policy.Dockerfile",
+      "published_sha256": "a6dd575b19625e5bec8aca459f3eacd7568e1329fd8928d7c74b2e62b700de0e"
+    },
+    "scripts/serve_policy.py": {
+      "published_path": "scripts/serve_policy.py",
+      "published_sha256": "eccc0448b4873fd30a1fff3355c5de7a7c227138e6db04b7dcaa5bb38a6a5809"
+    },
+    "scripts/train.py": {
+      "published_path": "scripts/train.py",
+      "published_sha256": "22f98a06aaa6e68e0f725d727ab95398238d1cae8a46bb94e829f330758a9baf"
+    },
+    "scripts/train_pytorch.py": {
+      "published_path": "scripts/train_pytorch.py",
+      "published_sha256": "a2a031bcc687d6fa530a63a153ef1821f930cb17fd72e4474e98680a31c29c74"
+    },
+    "scripts/train_test.py": {
+      "published_path": "scripts/train_test.py",
+      "published_sha256": "48398805809df6a07ce613d9060ab7e4e64fab60d573f79d16a7ba59a48219f6"
+    },
+    "src/openpi/conftest.py": {
+      "published_path": "src/openpi/conftest.py",
+      "published_sha256": "626672e385fb276396c119e2220421065c58f8ec602401e8bf2ae509f9fffaf3"
+    },
+    "src/openpi/models/gemma.py": {
+      "published_path": "src/openpi/models/gemma.py",
+      "published_sha256": "7e42ada4ae7e9995f0ef3e33a0c224758323c2015e2d9d72ec15726a8a001d2a"
+    },
+    "src/openpi/models/gemma_fast.py": {
+      "published_path": "src/openpi/models/gemma_fast.py",
+      "published_sha256": "563c6e1ffd8afa31c406bcb8894a605e87df88f6c075d398d97a57af6bc3aefa"
+    },
+    "src/openpi/models/lora.py": {
+      "published_path": "src/openpi/models/lora.py",
+      "published_sha256": "ced28716950c34d84a1a6d0b03b1d9550000732721df884818080b6e78cb3289"
+    },
+    "src/openpi/models/lora_test.py": {
+      "published_path": "src/openpi/models/lora_test.py",
+      "published_sha256": "a0f10525de7773310402b3ffa636e88ffff7035f3179b140aacc6809c122f085"
+    },
+    "src/openpi/models/model.py": {
+      "published_path": "src/openpi/models/model.py",
+      "published_sha256": "e76dc4f53d789f291d4d6c1e5bbbc3840f9ea6ed56409cb18f948a2939ab9335"
+    },
+    "src/openpi/models/model_test.py": {
+      "published_path": "src/openpi/models/model_test.py",
+      "published_sha256": "f8e71f195045d4e3ef1ddfafb2337fa52e5aa2f89bce1fde62f5cbfb67121f21"
+    },
+    "src/openpi/models/pi0.py": {
+      "published_path": "src/openpi/models/pi0.py",
+      "published_sha256": "24b32d7c6ed5e409459afa8ca5af96a4dae09c2dcdf48e828907e411f4f12342"
+    },
+    "src/openpi/models/pi0_config.py": {
+      "published_path": "src/openpi/models/pi0_config.py",
+      "published_sha256": "d321858c30b398126035ea2b6da09e1c422eeeebb5ebf8df631daf9dc77647fa"
+    },
+    "src/openpi/models/pi0_fast.py": {
+      "published_path": "src/openpi/models/pi0_fast.py",
+      "published_sha256": "627332a555046f2744ef144c45f8bd3361a9820cf68854a4528d0fdbba7e9aa3"
+    },
+    "src/openpi/models/pi0_frame_demo_config.py": {
+      "published_path": "src/openpi/models/pi0_frame_demo_config.py",
+      "published_sha256": "e129aca1b29a42a2c5b0a0b8ea55d653d24039c681b5d6d384e55b409df5d9fe"
+    },
+    "src/openpi/models/pi0_test.py": {
+      "published_path": "src/openpi/models/pi0_test.py",
+      "published_sha256": "5082873014a7fc45fb8414f517909e1c24cdafea980a1fb612e0aea6058ed0fe"
+    },
+    "src/openpi/models/siglip.py": {
+      "published_path": "src/openpi/models/siglip.py",
+      "published_sha256": "14b4df0be280d5769fb0dc31a40cde27525dbb1980cc998c28475d62fa3cad32"
+    },
+    "src/openpi/models/tokenizer.py": {
+      "published_path": "src/openpi/models/tokenizer.py",
+      "published_sha256": "007f64f89abd5f0e8fac20bd923f300def274f0a8f7eb39fcdacaa8fe44fa494"
+    },
+    "src/openpi/models/tokenizer_test.py": {
+      "published_path": "src/openpi/models/tokenizer_test.py",
+      "published_sha256": "5abd179ce883420e39d4d18b33d0123290af752da243003aa48a3bc06dbb9517"
+    },
+    "src/openpi/models/utils/fsq_tokenizer.py": {
+      "published_path": "src/openpi/models/utils/fsq_tokenizer.py",
+      "published_sha256": "88866638ee4775f46a222561a957bd35e20600fe38c5888b587016ad77b1065f"
+    },
+    "src/openpi/models/vit.py": {
+      "published_path": "src/openpi/models/vit.py",
+      "published_sha256": "d285d057636c3cba2d1fd3b37693b18075ad4b9c3b47bbde807c34c6c376ac93"
+    },
+    "src/openpi/models_pytorch/demo_compression.py": {
+      "published_path": "src/openpi/models_pytorch/demo_compression.py",
+      "published_sha256": "bb0c45ea7ce7b7640013560d597ba57d3b651b7c2b6636c11e7c583551d66d83"
+    },
+    "src/openpi/models_pytorch/frame_demo_encoder.py": {
+      "published_path": "src/openpi/models_pytorch/frame_demo_encoder.py",
+      "published_sha256": "f0e958cc894abf64d4f7e5dc57e97e29842937523119094f3c0178c68085477a"
+    },
+    "src/openpi/models_pytorch/gemma_pytorch.py": {
+      "published_path": "src/openpi/models_pytorch/gemma_pytorch.py",
+      "published_sha256": "1fe1b71ea33fbd91fc4fd2e149928ab927ca435775f82007a948875b22423f88"
+    },
+    "src/openpi/models_pytorch/pi0_frame_demo_pytorch.py": {
+      "published_path": "src/openpi/models_pytorch/pi0_frame_demo_pytorch.py",
+      "published_sha256": "20580cfdfdc3316c52df2053da1919d65bf0efac0d98254317f5e81bfb04498c"
+    },
+    "src/openpi/models_pytorch/pi0_pytorch.py": {
+      "published_path": "src/openpi/models_pytorch/pi0_pytorch.py",
+      "published_sha256": "593c7de9b2a56fe2f40be7ddf2922f495a7ce4b57bd1e800c82ddf19ab664eb4"
+    },
+    "src/openpi/models_pytorch/preprocessing_pytorch.py": {
+      "published_path": "src/openpi/models_pytorch/preprocessing_pytorch.py",
+      "published_sha256": "6a44e91be2d7a724c6140d2cc98ed0a631b8d38bbb29f63b380a0a19f903bbf6"
+    },
+    "src/openpi/models_pytorch/transformers_replace/models/gemma/configuration_gemma.py": {
+      "published_path": "src/openpi/models_pytorch/transformers_replace/models/gemma/configuration_gemma.py",
+      "published_sha256": "26fd0d0f52730ab32b6f337eb73ae9a26cb71ae0915bc49eced1d0e2ed8d0ec6"
+    },
+    "src/openpi/models_pytorch/transformers_replace/models/gemma/modeling_gemma.py": {
+      "published_path": "src/openpi/models_pytorch/transformers_replace/models/gemma/modeling_gemma.py",
+      "published_sha256": "17eeb54e277939e58cd6f8a92719a275e36baf0c9f463b2754227d42f87aedde"
+    },
+    "src/openpi/models_pytorch/transformers_replace/models/paligemma/modeling_paligemma.py": {
+      "published_path": "src/openpi/models_pytorch/transformers_replace/models/paligemma/modeling_paligemma.py",
+      "published_sha256": "c945d330b829264f927f3ee5339f977238631772de07a28e855e265bb85fd53c"
+    },
+    "src/openpi/models_pytorch/transformers_replace/models/siglip/check.py": {
+      "published_path": "src/openpi/models_pytorch/transformers_replace/models/siglip/check.py",
+      "published_sha256": "466e8eb7887ac5ccc98118a3169298d6ab65a284d834bae74751e3854dbc4245"
+    },
+    "src/openpi/models_pytorch/transformers_replace/models/siglip/modeling_siglip.py": {
+      "published_path": "src/openpi/models_pytorch/transformers_replace/models/siglip/modeling_siglip.py",
+      "published_sha256": "ef2e99500f263fdd78db9d4d9a255e29d844eb92f53c25ad640f8056700ef84b"
+    },
+    "src/openpi/policies/aloha_policy.py": {
+      "published_path": "src/openpi/policies/aloha_policy.py",
+      "published_sha256": "50d7ad972d80142ecb0f03b0780dacfd3af212946f4c9aac31a204b02db4543d"
+    },
+    "src/openpi/policies/droid_policy.py": {
+      "published_path": "src/openpi/policies/droid_policy.py",
+      "published_sha256": "99ebf8b252bde5e33dba7af10552137c421589ec88887bb0ee6507366d24da68"
+    },
+    "src/openpi/policies/libero_policy.py": {
+      "published_path": "src/openpi/policies/libero_policy.py",
+      "published_sha256": "d8679d99facc3fef48da07406081b20709ed872fcefdf7de67ede99422d623fa"
+    },
+    "src/openpi/policies/policy.py": {
+      "published_path": "src/openpi/policies/policy.py",
+      "published_sha256": "a2ac5236e23b11d0f5a840d4a8fef148d89dba921d5452ec5dfcd5a6ffa46f20"
+    },
+    "src/openpi/policies/policy_config.py": {
+      "published_path": "src/openpi/policies/policy_config.py",
+      "published_sha256": "aaf42ab04a33b6c91d2447926211646c33ebd8ebfa427f026d7b6c4f7c45ec52"
+    },
+    "src/openpi/policies/policy_test.py": {
+      "published_path": "src/openpi/policies/policy_test.py",
+      "published_sha256": "9dbb20963600367a7e7abfc97d1e326916777c57a87b39b1bc4070ba64676683"
+    },
+    "src/openpi/serving/websocket_policy_server.py": {
+      "published_path": "src/openpi/serving/websocket_policy_server.py",
+      "published_sha256": "1370d345e6c3c5b8f15573050e485e60a5b423d1df33e24b237805e6b442b026"
+    },
+    "src/openpi/shared/array_typing.py": {
+      "published_path": "src/openpi/shared/array_typing.py",
+      "published_sha256": "6524945566eab3eb97b75a6280ba4724617b4d028c55f05172b283c3de68a026"
+    },
+    "src/openpi/shared/download.py": {
+      "published_path": "src/openpi/shared/download.py",
+      "published_sha256": "a12054a6ddaab4efa833c4ff49a1aba00c63759e4e88d6be21c1e0b3307fd9b2"
+    },
+    "src/openpi/shared/download_test.py": {
+      "published_path": "src/openpi/shared/download_test.py",
+      "published_sha256": "234ee70ab2501a1421f6c44cbd83c1e16747597023319ae1446bed9d44f17072"
+    },
+    "src/openpi/shared/image_tools.py": {
+      "published_path": "src/openpi/shared/image_tools.py",
+      "published_sha256": "0f8fcb355288119e56acb56d550c1cc1f3a9edddceb0dc5b319f955943ef7767"
+    },
+    "src/openpi/shared/image_tools_test.py": {
+      "published_path": "src/openpi/shared/image_tools_test.py",
+      "published_sha256": "842374579dc9f4c2907da5e8bb555efe5a3f4902b659720c8e90115863dd59fe"
+    },
+    "src/openpi/shared/nnx_utils.py": {
+      "published_path": "src/openpi/shared/nnx_utils.py",
+      "published_sha256": "4da7111ba3011c4d1c381c9ed17257771df6a50ed89182647c3fb6f79208005e"
+    },
+    "src/openpi/shared/normalize.py": {
+      "published_path": "src/openpi/shared/normalize.py",
+      "published_sha256": "6c2cea4946fb07e51801530400d2b2fd94730e195cd290d6b6960114eca9739d"
+    },
+    "src/openpi/shared/normalize_test.py": {
+      "published_path": "src/openpi/shared/normalize_test.py",
+      "published_sha256": "fda27a21cf37f337b12bcab71229407c2a349c5965c33f278bdc468ed03f58af"
+    },
+    "src/openpi/training/checkpoints.py": {
+      "published_path": "src/openpi/training/checkpoints.py",
+      "published_sha256": "3cc32682ec3609e9075dabd991488edb9d7f6c045443f58963d733f99c468dbd"
+    },
+    "src/openpi/training/config.py": {
+      "published_path": "src/openpi/training/config.py",
+      "published_sha256": "c34231f888dba5dc981d808765b3d98775ab845b04313bf53fcecd567c520b0d"
+    },
+    "src/openpi/training/data_loader.py": {
+      "published_path": "src/openpi/training/data_loader.py",
+      "published_sha256": "4d0b055ac28527c1ab1f0ba7496057722c7c748c88564a8de2ff4fac650e97c9"
+    },
+    "src/openpi/training/data_loader_test.py": {
+      "published_path": "src/openpi/training/data_loader_test.py",
+      "published_sha256": "a0cf1bc293e8b0eb9bc5516bc05d30d9940da06c94fcfa1addca7267f8358815"
+    },
+    "src/openpi/training/droid_rlds_dataset.py": {
+      "published_path": "src/openpi/training/droid_rlds_dataset.py",
+      "published_sha256": "1d3a057a040240218234d7dbc6680ee4fe8256f2058531a0f9fefd3f7ee995a4"
+    },
+    "src/openpi/training/misc/polaris_config.py": {
+      "published_path": "src/openpi/training/misc/polaris_config.py",
+      "published_sha256": "c2ab92efb5e0d675118ad812113fd1c3cb3a62cdab5d79066014266e82df12d8"
+    },
+    "src/openpi/training/misc/roboarena_config.py": {
+      "published_path": "src/openpi/training/misc/roboarena_config.py",
+      "published_sha256": "914acdd74ccf90e6779c13a5093140595c7e4f687e9e0b167439446a81d74c01"
+    },
+    "src/openpi/training/optimizer.py": {
+      "published_path": "src/openpi/training/optimizer.py",
+      "published_sha256": "cfb5d6f6aec61fbe961287b4015c652260628a0ed4682a0dbdc271b8e65431fa"
+    },
+    "src/openpi/training/sharding.py": {
+      "published_path": "src/openpi/training/sharding.py",
+      "published_sha256": "c67c4112a126ab097571c8a882fd1ee3f106b15b6e608e7205ac7f29b44ca985"
+    },
+    "src/openpi/training/utils.py": {
+      "published_path": "src/openpi/training/utils.py",
+      "published_sha256": "b684e674343f86ef5e976f279a586d3fe2f885e901f396ac899ed136abc7eca6"
+    },
+    "src/openpi/training/weight_loaders.py": {
+      "published_path": "src/openpi/training/weight_loaders.py",
+      "published_sha256": "a54ac3222f81f8c6233241bc16b6f369c9416cdaa83f7058f96f7ddcfde1a3b4"
+    },
+    "src/openpi/transforms.py": {
+      "published_path": "src/openpi/transforms.py",
+      "published_sha256": "a1b94e9e72849a18834778f229c6bb389a495eb7fbe0aa800edea728b9424ff4"
+    },
+    "src/openpi/transforms_test.py": {
+      "published_path": "src/openpi/transforms_test.py",
+      "published_sha256": "d76f3ee8c5d7dc1c6fb6cb3b36b45ef30dd1de1ab5bc054bcb03deb79dcc06a8"
+    },
+    "uv.lock": {
+      "published_path": "uv.lock",
+      "published_sha256": "793488b5a55bb87200db90a61fd0af51922b686d94e1da4f4c587ab119b37d74"
     }
   },
   "publication_notes": [
     "Root README replaced with handoff index; original retained as SOURCE_README.md when present.",
     "Git ignore/attributes describe source-only publication.",
-    "ACT prepare accepts the frozen six-episode RGB exclusion contract before fitting statistics."
+    "ACT prepare accepts the frozen six-episode RGB exclusion contract before fitting statistics.",
+    "Published text is normalized to LF by .gitattributes; published SHA256 values describe Git blobs."
   ]
 }
