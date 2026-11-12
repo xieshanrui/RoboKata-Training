@@ -1,0 +1,17 @@
+{
+  "task_mapping_file": {
+    "sha256": "be214b1dbc77ce3205f542b9b44012938b98829cbbe981ff8dd0c01914c08124",
+    "kind": "repository",
+    "relative_path": "examples/baselines/lerobot_dataset/task_mapping.json"
+  },
+  "human_task_description_file": {
+    "sha256": "68624ba2683f1980bba3ecfd327f56c64e002f216e2886af2b35c0f4deebb242",
+    "kind": "repository",
+    "relative_path": "examples/baselines/lerobot_dataset/task_desc/human_desc.json"
+  },
+  "sim_task_description_file": {
+    "sha256": "23c8594e14629b274a6d1f250fe30110bb003775e36e80f40ac9701f9879e603",
+    "kind": "repository",
+    "relative_path": "examples/baselines/lerobot_dataset/task_desc/sim_desc.json"
+  }
+}
