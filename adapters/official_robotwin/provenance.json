@@ -1,0 +1,42 @@
+{
+  "upstream_zerowam_commit": "08e2c4ae41e2b63573a299825cebe6753481407c",
+  "robotwin_commit": "2eeec322",
+  "model_revision": "07ee865f175d9474a5653e9147698390e47b6143",
+  "human_revision": "971d12e942bf101c0d47716f928b1c044d02ac71",
+  "asset_revision": "3dc3b798668feb99ac61cc9086d84cbcc3d79186",
+  "source_files": {
+    "raster303_20261102\\eval_client_expert_filter.py": "ab1bb17bc546766bb0963ad33283f9692537bb4ac659984879cb8017bfee247d",
+    "server_entry.py": "4e43baae34a737e76d745bba1e03748976d56a03a9afe2c3e31bc67d9f71df74",
+    "raster303_20261102\\state_snapshot.py": "af9f021b9080d10a916a6d893e74198628fab67fc0a0fc37b89759ff41f5aed6"
+  },
+  "changes": [
+    "Remove shadowed report rendering and unused imports",
+    "Explicit UTF-8, literal CLI overrides and relocatable paths",
+    "Keep native policy/action/observation/score logic and narrow expert-empty-grasp filter"
+  ],
+  "protocol": {
+    "tasks": [
+      "place_object_scale",
+      "stamp_seal",
+      "open_microwave",
+      "move_stapler_pad",
+      "stack_blocks_three",
+      "place_bread_basket",
+      "place_empty_cup"
+    ],
+    "episodes_per_task": 50,
+    "start_seed": 100000,
+    "policy_retries": 0,
+    "expert_candidate_limit": 1000,
+    "target_text_cfg": -1,
+    "icl_cfg": 5,
+    "action_cfg": 1,
+    "denoise_steps": 50,
+    "task_config": "demo_clean",
+    "embodiment": "aloha-agilex",
+    "sapien": "3.0.3",
+    "renderer": "raster, PCI-pinned",
+    "query_views": 3,
+    "demo": "Released HumanGen latent with cached text"
+  }
+}
