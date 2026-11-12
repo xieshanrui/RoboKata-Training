@@ -75,13 +75,14 @@
     },
     "act_robotwin/train.py": {
       "published_path": "act_robotwin/train.py",
-      "published_sha256": "d08a6f622697c04679e8f0940a7f3c9ab97666cff0d888de1aff3f020d4ed082"
+      "published_sha256": "0f720d3cff453f06c31d6ec2f25c8b5ec81d259580c20826847eb330462cacc0"
     }
   },
   "publication_notes": [
     "Root README replaced with handoff index; original retained as SOURCE_README.md when present.",
     "Git ignore/attributes describe source-only publication.",
     "ACT prepare accepts the frozen six-episode RGB exclusion contract before fitting statistics.",
-    "Published text is normalized to LF by .gitattributes; published SHA256 values describe Git blobs."
+    "Published text is normalized to LF by .gitattributes; published SHA256 values describe Git blobs.",
+    "Audit: bind resume checkpoints to adapter and IG backbone source identities; optimization unchanged."
   ]
 }

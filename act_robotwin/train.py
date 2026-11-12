@@ -37,6 +37,8 @@ def main():
     batches=math.ceil(len(dataset)/a.batch_size)
     scheduler=get_scheduler('cosine',optimizer=optimizer,num_warmup_steps=a.warmup_epochs*batches,
                             num_training_steps=a.epochs*batches)
+    source_hashes={str(f.relative_to(a.ig_root)):sha(f) for rel in ['examples/baselines/act/act','examples/baselines/encoders/task_encoder/video_backbone.py'] for f in ([a.ig_root/rel] if (a.ig_root/rel).is_file() else (a.ig_root/rel).rglob('*.py'))}
+    local_hashes={f.name:sha(f) for f in Path(__file__).parent.glob('*.py')}
     start_epoch=0;start_batch=0;step=0
     if a.resume:
         c=torch.load(a.resume,map_location=a.device,weights_only=True)
@@ -44,13 +46,14 @@ def main():
         assert c['config']==model.config and c['batch_size']==a.batch_size and c['seed']==a.seed and c['lr']==a.lr
         assert c['epochs']==a.epochs and c['warmup_epochs']==a.warmup_epochs
         assert c.get('precision','fp32')==a.precision
+        if c.get('upstream_files')!=source_hashes or c.get('local_files')!=local_hashes:
+            raise ValueError('Checkpoint source identity is missing or changed; resume legacy checkpoints only with their frozen source')
         model.load_state_dict(c['model']);optimizer.load_state_dict(c['optimizer'])
         scheduler.load_state_dict(c['scheduler'])
         step=c['step'];start_epoch=c['next_epoch'];start_batch=c.get('next_batch',0);torch.set_rng_state(c['rng'].cpu())
         if str(a.device).startswith('cuda'):torch.cuda.set_rng_state(c['cuda_rng'].cpu())
     if start_epoch>=a.epochs:raise ValueError('Checkpoint already reached the frozen epoch budget')
-    source_hashes={str(f.relative_to(a.ig_root)):sha(f) for rel in ['examples/baselines/act/act','examples/baselines/encoders/task_encoder/video_backbone.py'] for f in ([a.ig_root/rel] if (a.ig_root/rel).is_file() else (a.ig_root/rel).rglob('*.py'))}
-    write(a.run/'config.json',{'model':model.config,'arguments':{k:str(v) if isinstance(v,Path) else v for k,v in vars(a).items()},'prepared_sha256':sha(a.prepared),'upstream_files':source_hashes,'local_files':{f.name:sha(f) for f in Path(__file__).parent.glob('*.py')},'train_frames':len(dataset),'smoke_only':prepared['smoke_only'],'selection':'final epoch, no held-out task checkpoint selection'})
+    write(a.run/'config.json',{'model':model.config,'arguments':{k:str(v) if isinstance(v,Path) else v for k,v in vars(a).items()},'prepared_sha256':sha(a.prepared),'upstream_files':source_hashes,'local_files':local_hashes,'train_frames':len(dataset),'smoke_only':prepared['smoke_only'],'selection':'final epoch, no held-out task checkpoint selection'})
     if str(a.device).startswith('cuda'):torch.cuda.reset_peak_memory_stats()
     started=time.monotonic();metrics=[];last_batch=None
     def save(epoch,next_batch):
@@ -59,6 +62,7 @@ def main():
            'next_epoch':epoch,'next_batch':next_batch,'smoke_only':prepared['smoke_only'],
            'batch_size':a.batch_size,'seed':a.seed,'lr':a.lr,'precision':a.precision,
            'scheduler':scheduler.state_dict(),'epochs':a.epochs,'warmup_epochs':a.warmup_epochs,
+           'upstream_files':source_hashes,'local_files':local_hashes,
            'rng':torch.get_rng_state(),'cuda_rng':torch.cuda.get_rng_state() if str(a.device).startswith('cuda') else None}
         temp=a.run/'latest.tmp';torch.save(c,temp);temp.replace(a.run/'latest.pt')
         if next_batch==0 and epoch%2==0:
