@@ -119,16 +119,389 @@
   "publication_changes": {
     ".gitignore": {
       "published_path": ".gitignore",
-      "published_sha256": "cd58932ffad3d56db2b519e9dc021b01710d55f34ceed7ca26628e86db6dd83f"
+      "published_sha256": "8e9c10f5963cbf0af4682da94917b7424bb4603cdfc89296b354846c71aa18b3"
+    },
+    "INSTALL.md": {
+      "published_path": "INSTALL.md",
+      "published_sha256": "e610422735f61a8a2e8987b0d91849861dd0d0eda3cf692510e761e024e54d1e"
+    },
+    "LICENSE.txt": {
+      "published_path": "LICENSE.txt",
+      "published_sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4"
+    },
+    "Makefile": {
+      "published_path": "Makefile",
+      "published_sha256": "2977af7873b2fae9ae3bcf19d419a315ee7a8dc0a69a103329e8a5073e173776"
     },
     "README.md": {
       "published_path": "SOURCE_README.md",
-      "published_sha256": "9cabe7aa9b08581e9fbf4020f39473e3e49b2c84221b79682589806972c863e5"
+      "published_sha256": "fc36f5a47036166ba4fbc93fbe8b6d31c6dfd46b77b33c100914e297d6be5cf5"
+    },
+    "adapters/README.md": {
+      "published_path": "adapters/README.md",
+      "published_sha256": "ad5d93cdc906e5c68e11eb61e2afe9f36e2ad3a4bee2a0bc99e73dd1881e23c7"
+    },
+    "adapters/official_robotwin/README.md": {
+      "published_path": "adapters/official_robotwin/README.md",
+      "published_sha256": "779acac9e312e5223f7d70e78388752eece4a310e31ae8053f8775413fe5ae8a"
+    },
+    "adapters/official_robotwin/b1_server.py": {
+      "published_path": "adapters/official_robotwin/b1_server.py",
+      "published_sha256": "866b7b4f2b6950b771b901b72e9812a8df2c27c3c5cf231adf698b3b80ae9738"
+    },
+    "adapters/official_robotwin/client.py": {
+      "published_path": "adapters/official_robotwin/client.py",
+      "published_sha256": "ec177ee23c9414ce32d12adb95bf108d449cb6e28eb5d3245b90a7057623809e"
+    },
+    "adapters/official_robotwin/download_resources.py": {
+      "published_path": "adapters/official_robotwin/download_resources.py",
+      "published_sha256": "18ebcf6e5f03a8327dc7fd13a45f75e5b1f7a6c7eedf940954b312077ba6f374"
+    },
+    "adapters/official_robotwin/prepare_robotwin.py": {
+      "published_path": "adapters/official_robotwin/prepare_robotwin.py",
+      "published_sha256": "a6d2a9dc89a8b1ed5e1dfd07f5cfc86baf6d1529add139b9f9230b3161c40bf7"
+    },
+    "adapters/official_robotwin/provenance.json": {
+      "published_path": "adapters/official_robotwin/provenance.json",
+      "published_sha256": "9a8b634046ca653f28495804255b5923f38dbb30628501a6814b5f2457c0a5e5"
+    },
+    "adapters/official_robotwin/requirements-infer-linux-py312.txt": {
+      "published_path": "adapters/official_robotwin/requirements-infer-linux-py312.txt",
+      "published_sha256": "47756c7a9907457264a290c1c8bfd36ce584f618665083866642672c9387d6fb"
+    },
+    "adapters/official_robotwin/requirements-sim-linux-py312.txt": {
+      "published_path": "adapters/official_robotwin/requirements-sim-linux-py312.txt",
+      "published_sha256": "5bcdb352e2aa3c182b51db81cd53ec16d767ad45adea4664e936d8a13f0207d1"
+    },
+    "adapters/official_robotwin/server.py": {
+      "published_path": "adapters/official_robotwin/server.py",
+      "published_sha256": "9c1ed0565a6bf62d65e249e1e5a02c70623b4eff3c74f5a43e8f0679b9918900"
+    },
+    "adapters/official_robotwin/state_snapshot.py": {
+      "published_path": "adapters/official_robotwin/state_snapshot.py",
+      "published_sha256": "af9f021b9080d10a916a6d893e74198628fab67fc0a0fc37b89759ff41f5aed6"
+    },
+    "adapters/roboicl_client.py": {
+      "published_path": "adapters/roboicl_client.py",
+      "published_sha256": "67266b0deb3af7ce4ec203ffe8acdb7a539215d94f755dae25dde29bad3d06ff"
+    },
+    "adapters/roboicl_frames.py": {
+      "published_path": "adapters/roboicl_frames.py",
+      "published_sha256": "0d4635967ee9937c16894b930781c1dbe7433bf0ca5ed30ffad69e6a54a0527a"
+    },
+    "adapters/roboicl_lora_worker.py": {
+      "published_path": "adapters/roboicl_lora_worker.py",
+      "published_sha256": "b0f14810b57976db36402ef5890af1ebd4a307a981688dfc90e5c718186edfa8"
+    },
+    "adapters/roboicl_single_arm.py": {
+      "published_path": "adapters/roboicl_single_arm.py",
+      "published_sha256": "837f62ee981b04bf6f34168c28bfe13257da4822f3ace6dd5e40146891b22b95"
+    },
+    "adapters/roboicl_video.py": {
+      "published_path": "adapters/roboicl_video.py",
+      "published_sha256": "38d0bcce985f8d95f14f56a98e112bfd7497a4ed6e781ec2e619f2bcf2c6a96c"
+    },
+    "adapters/roboicl_worker.py": {
+      "published_path": "adapters/roboicl_worker.py",
+      "published_sha256": "e4c6f74965e27309bff4e61f56da0dcc412a3427b4510e96cda423e6ebe2fbbe"
+    },
+    "evaluation/robotwin/calc_stat.py": {
+      "published_path": "evaluation/robotwin/calc_stat.py",
+      "published_sha256": "101b9c86d95fa6d70488ecf0c48207665beae194202ee7ddb555927bcbe2ef4a"
+    },
+    "evaluation/robotwin/envs/move_stapler_pad.py": {
+      "published_path": "evaluation/robotwin/envs/move_stapler_pad.py",
+      "published_sha256": "8a8312d0749706b48027cfa14f10033d1d3f5551f94914c307d9d74f16603a47"
+    },
+    "evaluation/robotwin/envs/stamp_seal.py": {
+      "published_path": "evaluation/robotwin/envs/stamp_seal.py",
+      "published_sha256": "35aec4f8d01f045783574220b8936ec37f6333de5ef712b3d50411980d00140f"
+    },
+    "evaluation/robotwin/eval_policy_client_openpi.py": {
+      "published_path": "evaluation/robotwin/eval_policy_client_openpi.py",
+      "published_sha256": "1c2260b728e603f44dc47e0ba27601b8e607fde889c01b0b92d86a26cf0814a2"
+    },
+    "evaluation/robotwin/geometry.py": {
+      "published_path": "evaluation/robotwin/geometry.py",
+      "published_sha256": "4ef3c7c351043410dda6926690b1482b51b81d6ef6889d8dedd007efe6e025b1"
+    },
+    "evaluation/robotwin/launch_client.sh": {
+      "published_path": "evaluation/robotwin/launch_client.sh",
+      "published_sha256": "7fe27799659053156ed354d10b30e7da69e0d52d8fa08191e2699afb56fbf230"
+    },
+    "evaluation/robotwin/launch_client_multigpus.sh": {
+      "published_path": "evaluation/robotwin/launch_client_multigpus.sh",
+      "published_sha256": "4582e3768be091ba9b95d33cf335fa4a60a8c156a553efa3a056212289f7b820"
+    },
+    "evaluation/robotwin/launch_server.sh": {
+      "published_path": "evaluation/robotwin/launch_server.sh",
+      "published_sha256": "4a50a7b33759528158f6e4347344d1c869b0b29083850e558f0c663b4540d4d5"
+    },
+    "evaluation/robotwin/launch_server_multigpus.sh": {
+      "published_path": "evaluation/robotwin/launch_server_multigpus.sh",
+      "published_sha256": "a2958dca5badb72fb33138e62c9a1c9110a7258595d161aceee4fb5838849897"
+    },
+    "evaluation/robotwin/msgpack_numpy.py": {
+      "published_path": "evaluation/robotwin/msgpack_numpy.py",
+      "published_sha256": "c04568948fcee52b691e3be4b6cffb759f7e79ad67530fcd5d23095a0d13c057"
+    },
+    "evaluation/robotwin/robotwin_icl_human_videos.py": {
+      "published_path": "evaluation/robotwin/robotwin_icl_human_videos.py",
+      "published_sha256": "9c8a331c3a2ae60aca1ec11a5b182f3ec8c39bc747e57cf8f88453c32ecefa77"
+    },
+    "evaluation/robotwin/run_icl_eval.sh": {
+      "published_path": "evaluation/robotwin/run_icl_eval.sh",
+      "published_sha256": "599d1b444e02671908639ca15af45bf017cfac956d7c6c3ad65e64d3996ff676"
+    },
+    "evaluation/robotwin/test_render.py": {
+      "published_path": "evaluation/robotwin/test_render.py",
+      "published_sha256": "3d2c774df259ca74c296c7b34394cd899d875cc55cfa674d80ba7fc671316fcf"
+    },
+    "evaluation/robotwin/websocket_client_policy.py": {
+      "published_path": "evaluation/robotwin/websocket_client_policy.py",
+      "published_sha256": "28ac8bbc469f351b39dd3e3ba16324106bcf19e42c4322eccb942f1177189885"
+    },
+    "pyproject.toml": {
+      "published_path": "pyproject.toml",
+      "published_sha256": "1d161a7cf5041f562215efcfc7b73a593b0d955bd4e25d049ef2243c907e339d"
+    },
+    "requirements.txt": {
+      "published_path": "requirements.txt",
+      "published_sha256": "c3bac2b3919995276108eb6468a8fa1722675437b61c08bc47f7eef1578dfb32"
+    },
+    "script/create_lerobot_latent_view.py": {
+      "published_path": "script/create_lerobot_latent_view.py",
+      "published_sha256": "c195f0faa7765d4ffb8da1993c748302aecb57f8234ba18ee91e1bc4ef46030a"
+    },
+    "script/run_launch_va_server_sync.sh": {
+      "published_path": "script/run_launch_va_server_sync.sh",
+      "published_sha256": "3c220534e7d9b74d8b9f4bc6bf18b62069546f16d287b6893ddcceac1a70f977"
+    },
+    "script/train.sh": {
+      "published_path": "script/train.sh",
+      "published_sha256": "fd301c2164d57f63dd5b6ba002e8670566631df52dbcc1a96ca4c841974f6eea"
+    },
+    "tests/test_create_lerobot_latent_view.py": {
+      "published_path": "tests/test_create_lerobot_latent_view.py",
+      "published_sha256": "b8e7201719f2c40a38f665014e4d8c0848fad48f2512e13c872caf9a62abc034"
+    },
+    "tests/test_dataset_index_cache.py": {
+      "published_path": "tests/test_dataset_index_cache.py",
+      "published_sha256": "4fcc99a0dcc2db143a615287f7f71e76d81d462a70a872ab03111f5835b1ed7e"
+    },
+    "tests/test_dataset_mixture.py": {
+      "published_path": "tests/test_dataset_mixture.py",
+      "published_sha256": "9ed7cff8f2ab27ed6aa1f6cb7d9aa22ae0168b4971ff339821b37e8126cbe941"
+    },
+    "tests/test_icl_dataset.py": {
+      "published_path": "tests/test_icl_dataset.py",
+      "published_sha256": "bf4c94533bddb576e2c2f8b5136d074146f8734a0284318e8e91c6b2c7ba52a4"
+    },
+    "tests/test_icl_model.py": {
+      "published_path": "tests/test_icl_model.py",
+      "published_sha256": "4f0a21958d00923fcca45c0a04fa55675413c3d9f2fa2231afd3cc42b865cd56"
+    },
+    "tests/test_icl_server.py": {
+      "published_path": "tests/test_icl_server.py",
+      "published_sha256": "0278944b2abf1b76409480603551b78e69ad1d3a989fdaae49b70c0b01e005ed"
+    },
+    "tests/test_lerobot_action.py": {
+      "published_path": "tests/test_lerobot_action.py",
+      "published_sha256": "c8761fdb507e1f1ad86508bf4eade3069685f0d7e975f303c4bccf6d58c7b63e"
+    },
+    "tests/test_mcp.py": {
+      "published_path": "tests/test_mcp.py",
+      "published_sha256": "746dd3107a35825910a7c2afa76d8bd6f8a99fb2fa90a0d97e7d212b42aa1812"
+    },
+    "tests/test_model_paths.py": {
+      "published_path": "tests/test_model_paths.py",
+      "published_sha256": "94c3272cfee611fb81476026c0a852ab306620aa41097d996af8c19a1df54ff4"
+    },
+    "tests/test_public_icl_configs.py": {
+      "published_path": "tests/test_public_icl_configs.py",
+      "published_sha256": "a1203b984e294eb29954ed84e31a0d705b71caf19519d7aeade7bd96485d0342"
+    },
+    "tests/test_robotwin_action.py": {
+      "published_path": "tests/test_robotwin_action.py",
+      "published_sha256": "21a89e08305acabea4be53f1798fab3f941e6bd3e8aba8669f5602af08193740"
+    },
+    "tests/test_training_alignment.py": {
+      "published_path": "tests/test_training_alignment.py",
+      "published_sha256": "a6b3d46654b7b8facad171606e62179e89d432e6e450aff3f930fcce5928e135"
+    },
+    "wan_va/__init__.py": {
+      "published_path": "wan_va/__init__.py",
+      "published_sha256": "82548e574a8b43d4bb1480e915ea993b526ed9f5fb761f8e65fdcaca601838e8"
+    },
+    "wan_va/assets/norm_stats/robotwin_icl.json": {
+      "published_path": "wan_va/assets/norm_stats/robotwin_icl.json",
+      "published_sha256": "d207bff62727da0202bbf65e64c00d2ec8adf5018832579b80bb97a8624762e7"
+    },
+    "wan_va/build_dataset_index.py": {
+      "published_path": "wan_va/build_dataset_index.py",
+      "published_sha256": "9ab5b06a883516ef3d211b883d5af496052f3796720d51c0d529f8c3b5e62b11"
+    },
+    "wan_va/configs/__init__.py": {
+      "published_path": "wan_va/configs/__init__.py",
+      "published_sha256": "7b342f5002b40b8f90879f50cc60b444a22465039893e502c3b0631d250e1c93"
+    },
+    "wan_va/configs/shared_config.py": {
+      "published_path": "wan_va/configs/shared_config.py",
+      "published_sha256": "48e6f76b08fc35cf996e37799a1f4892a032b8912aa052be6a8fe4ff322f4384"
+    },
+    "wan_va/configs/va_agibot_train_cfg.py": {
+      "published_path": "wan_va/configs/va_agibot_train_cfg.py",
+      "published_sha256": "d3ec3e7164abc8f213b9b81aeaa1af979cbf849080f8b3b5c782fd9c8098379a"
+    },
+    "wan_va/configs/va_demo_cfg.py": {
+      "published_path": "wan_va/configs/va_demo_cfg.py",
+      "published_sha256": "4bb456c299342eb282e1c873e8791edb065619bfd0c017a234891076e5155ca7"
+    },
+    "wan_va/configs/va_demo_i2va.py": {
+      "published_path": "wan_va/configs/va_demo_i2va.py",
+      "published_sha256": "c1133c46dedf386193a3d4654e879fe6d6453edaaa287ea963e148f13127bf7c"
+    },
+    "wan_va/configs/va_franka_cfg.py": {
+      "published_path": "wan_va/configs/va_franka_cfg.py",
+      "published_sha256": "7fa277481b4452d3ff74cdc0188120223868da9a7eb7760d6e9b6c54eee5e82f"
+    },
+    "wan_va/configs/va_franka_i2va.py": {
+      "published_path": "wan_va/configs/va_franka_i2va.py",
+      "published_sha256": "d84297e7bcc2227368e3e097982cc2bb8827ba3db1dba508c6f52809e7283172"
+    },
+    "wan_va/configs/va_interna1_train_cfg.py": {
+      "published_path": "wan_va/configs/va_interna1_train_cfg.py",
+      "published_sha256": "037762712ccdee3c7bc21887558b302532ef7e3722f6cdf6671821bb910e7bbc"
+    },
+    "wan_va/configs/va_oxe_train_cfg.py": {
+      "published_path": "wan_va/configs/va_oxe_train_cfg.py",
+      "published_sha256": "623ffb26a62484e006c204df201b10f4f66b03d60ca9256fa1a5e6688f960d82"
+    },
+    "wan_va/configs/va_robocoin_train_cfg.py": {
+      "published_path": "wan_va/configs/va_robocoin_train_cfg.py",
+      "published_sha256": "943f715b06f2069106cdb6a98847222644a65625f9262ea8231659c73c20889e"
+    },
+    "wan_va/configs/va_robomind_train_cfg.py": {
+      "published_path": "wan_va/configs/va_robomind_train_cfg.py",
+      "published_sha256": "407654b7adbb34b54e086be43caee0095f9365546adfa2ba6498374ca2d73f5f"
+    },
+    "wan_va/configs/va_robotwin_cfg.py": {
+      "published_path": "wan_va/configs/va_robotwin_cfg.py",
+      "published_sha256": "64c9b63620142ebd0f007ae2a4af20a1b19c440627e2e79e5e055658edd9d96b"
+    },
+    "wan_va/configs/va_robotwin_i2va.py": {
+      "published_path": "wan_va/configs/va_robotwin_i2va.py",
+      "published_sha256": "b33f161e42f597907498dd55619b726cd256b199b2334dac8383c05771799a1e"
+    },
+    "wan_va/configs/va_robotwin_train_cfg.py": {
+      "published_path": "wan_va/configs/va_robotwin_train_cfg.py",
+      "published_sha256": "9042a456bbcb1938dd193c1ddb68126cc1a1951c7490acb28344fbb48357db8a"
+    },
+    "wan_va/configs/zerowam_train_config.py": {
+      "published_path": "wan_va/configs/zerowam_train_config.py",
+      "published_sha256": "5f258f09cce69043b6db796e05aca9b6c3295b5fe086d5445d6da0608273af1a"
+    },
+    "wan_va/dataset/__init__.py": {
+      "published_path": "wan_va/dataset/__init__.py",
+      "published_sha256": "4571d33deab93e98daac0b56190225c0914101066530eef66725faed6d3f6619"
+    },
+    "wan_va/dataset/dataset_mixture.py": {
+      "published_path": "wan_va/dataset/dataset_mixture.py",
+      "published_sha256": "dcee9e03b99521177f6d678c5cd13a88b55cacdd491c74ff238da5549d2cb038"
+    },
+    "wan_va/dataset/icl_lerobot_latent_dataset.py": {
+      "published_path": "wan_va/dataset/icl_lerobot_latent_dataset.py",
+      "published_sha256": "a1693d19308ece4c27fdb695fb3a26b8e525a4ef126cc0fb57c49a8d1c401b29"
+    },
+    "wan_va/dataset/lerobot_action.py": {
+      "published_path": "wan_va/dataset/lerobot_action.py",
+      "published_sha256": "e0d2420f66e8669c089a2f8228af34f979b040df43032dae2b557852e0f2cd21"
+    },
+    "wan_va/dataset/lerobot_latent_dataset.py": {
+      "published_path": "wan_va/dataset/lerobot_latent_dataset.py",
+      "published_sha256": "54698a8d8287ec66c98270f1517487445b67ab4e071cf6b5471e057ed3ab20af"
+    },
+    "wan_va/dataset/robotwin_action.py": {
+      "published_path": "wan_va/dataset/robotwin_action.py",
+      "published_sha256": "d36cdc2d821465b57ad7acc174e49750c50f7a99ce352a6feac5b5000097effb"
+    },
+    "wan_va/distributed/__init__.py": {
+      "published_path": "wan_va/distributed/__init__.py",
+      "published_sha256": "013ec40a0739296f1ba474036e5d46e06998f795daa0b7c3214773d885a3ab1a"
+    },
+    "wan_va/distributed/fsdp.py": {
+      "published_path": "wan_va/distributed/fsdp.py",
+      "published_sha256": "f7841b8d58f1f85fae1b7e6ca666e3c067bd7ab7c6f8bc89061f2c5b128c2ffb"
+    },
+    "wan_va/distributed/util.py": {
+      "published_path": "wan_va/distributed/util.py",
+      "published_sha256": "b8bf8afaf94fc8efbf1dc5e355210e9c08d75408bb73c3706ec5adafba3aeec7"
+    },
+    "wan_va/mcp.py": {
+      "published_path": "wan_va/mcp.py",
+      "published_sha256": "160c093085eebfaa8893f94bfd733df178f5f8421b91c8870af207568625ebbf"
+    },
+    "wan_va/modules/__init__.py": {
+      "published_path": "wan_va/modules/__init__.py",
+      "published_sha256": "2bc0eaa069761eba1f9b14d40e4405e920cdc90428ae616ab33111aab221a23a"
+    },
+    "wan_va/modules/icl_model.py": {
+      "published_path": "wan_va/modules/icl_model.py",
+      "published_sha256": "395ef03544848ca5face81acd2ff9d5fbe965adf14905d1a1b855d64b5aa5632"
+    },
+    "wan_va/modules/model.py": {
+      "published_path": "wan_va/modules/model.py",
+      "published_sha256": "659ad41cd2a3088f243584734fb2f513366d3e617029493bb156ab19b2b0cc6d"
+    },
+    "wan_va/modules/utils.py": {
+      "published_path": "wan_va/modules/utils.py",
+      "published_sha256": "87d3250324af9006ea5c852a51b74b2f33ea9b5642cd45050722a0d6ebb7a23b"
+    },
+    "wan_va/train.py": {
+      "published_path": "wan_va/train.py",
+      "published_sha256": "a970a363b75e1a2ce179fb9c2b0bf5a21fd7386d6a4f13d4a4e17ed926529b12"
+    },
+    "wan_va/utils/Simple_Remote_Infer/LEGAL.md": {
+      "published_path": "wan_va/utils/Simple_Remote_Infer/LEGAL.md",
+      "published_sha256": "adba50d9794b9ef3f7ec8cbc680f7f1fa3fbf9df0ac8d1f9b9ccab6d941bc11b"
+    },
+    "wan_va/utils/Simple_Remote_Infer/deploy/msgpack_numpy.py": {
+      "published_path": "wan_va/utils/Simple_Remote_Infer/deploy/msgpack_numpy.py",
+      "published_sha256": "c37345c1d0ae4a0f27d91af4798af842986c255e7aa93b08255471cd3393eab1"
+    },
+    "wan_va/utils/Simple_Remote_Infer/deploy/websocket_policy_server.py": {
+      "published_path": "wan_va/utils/Simple_Remote_Infer/deploy/websocket_policy_server.py",
+      "published_sha256": "441423a7ed7382c656247f51e1d53117252b6c92c802a175f8d5d6ec86db3d76"
+    },
+    "wan_va/utils/__init__.py": {
+      "published_path": "wan_va/utils/__init__.py",
+      "published_sha256": "09b6d64f4921f4b46daf9b42b3b191cebb36ba8511014b8499d722f4e56f1f5a"
+    },
+    "wan_va/utils/logging.py": {
+      "published_path": "wan_va/utils/logging.py",
+      "published_sha256": "3f894f412c096b15692b9adc5a3c4496447aee7e32a86f09562276fcbc2c7fd5"
+    },
+    "wan_va/utils/scheduler.py": {
+      "published_path": "wan_va/utils/scheduler.py",
+      "published_sha256": "9833300936d1001e5dfb0db76d5e0e131429685980de7b3c9716288ec28da7f1"
+    },
+    "wan_va/utils/server_utils.py": {
+      "published_path": "wan_va/utils/server_utils.py",
+      "published_sha256": "d61e653a1541fc829786fcce61cb29e828407b0b1014f555c56c950d2d646e44"
+    },
+    "wan_va/utils/utils.py": {
+      "published_path": "wan_va/utils/utils.py",
+      "published_sha256": "0ab2d716a9c9dc953487b9e1bef048d804bf989e67fc57629bc9ae5658906ebd"
+    },
+    "wan_va/wan_va_server.py": {
+      "published_path": "wan_va/wan_va_server.py",
+      "published_sha256": "d345d758c64172a3cb230386a0c74c96f59b4b33098ffd27ac85667a378fb584"
     }
   },
   "publication_notes": [
     "Root README replaced with handoff index; original retained as SOURCE_README.md when present.",
     "Git ignore/attributes describe source-only publication.",
-    "ACT prepare accepts the frozen six-episode RGB exclusion contract before fitting statistics."
+    "ACT prepare accepts the frozen six-episode RGB exclusion contract before fitting statistics.",
+    "Published text is normalized to LF by .gitattributes; published SHA256 values describe Git blobs."
   ]
 }
