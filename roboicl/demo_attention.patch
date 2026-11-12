@@ -1,0 +1,45 @@
+--- a/examples/baselines/zero_wam/zero_wam/wan_va/modules/icl_model.py
++++ b/examples/baselines/zero_wam/zero_wam/wan_va/modules/icl_model.py
+@@ -520,6 +520,7 @@
+         rotary_emb: torch.Tensor,
+         update_cache: int = 0,
+         cache_name: str = "pos",
++        demo_features: Optional[torch.Tensor] = None,
+     ):
+         latent_mod = (
+             None
+@@ -587,6 +588,9 @@
+             ).to(hs_latent.dtype)
+         if hs_action is not None:
+             hs_action = hs_action + cross_action
++            demo_attention = getattr(self, "demo_attention", None)
++            if demo_attention is not None and demo_features is not None:
++                hs_action = demo_attention(hs_action, demo_features)
+             ff_input = (
+                 self.action_norm3(hs_action.float()) * (1 + action_mod[4])
+                 + action_mod[3]
+@@ -727,6 +731,8 @@
+         )
+         self.clear_cache()
+
++    supports_demo_attention = True
++
+     def disable_mcp_modules(self) -> None:
+         self.enable_mcp = False
+
+@@ -1157,6 +1163,7 @@
+                 latent_timestep_proj,
+                 action_timestep_proj,
+                 rotary_emb,
++                demo_features=input_dict.get("demo_features"),
+             )
+             if self.enable_mcp and layer_index in self.mcp_hidden_collect_layers:
+                 collected.append(hs_latent[:, : target_length * 2])
+@@ -1326,6 +1333,7 @@
+                 rotary_emb,
+                 update_cache=update_cache,
+                 cache_name=cache_name,
++                demo_features=input_dict.get("demo_features") if mode == "action" else None,
+             )
+
+         output_states = hs_latent if mode == "video" else hs_action
