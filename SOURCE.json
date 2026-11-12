@@ -27,10 +27,72 @@
     "osvi_robotwin/train.py": "09b4e6aa6ffcbb591b88bbf401842b0c2fb494daaee73d354879e80c2d3f1d66"
   },
   "upstream_licenses": "Retained in source; see THIRD_PARTY.md on main.",
-  "publication_changes": {},
+  "publication_changes": {
+    "osvi_ig/README.md": {
+      "published_path": "osvi_ig/README.md",
+      "published_sha256": "701cd8bfcb5ca1aef3a9a2494ea691c8443234ef706935f53742f48749257024"
+    },
+    "osvi_ig/__init__.py": {
+      "published_path": "osvi_ig/__init__.py",
+      "published_sha256": "5b7b2ef408e619f39115e6caa4f997e781741b17d48e6fb56b78c835544cbbdd"
+    },
+    "osvi_ig/data.py": {
+      "published_path": "osvi_ig/data.py",
+      "published_sha256": "67ad55c5ae021a6b2b788957b2be5095f8c37ffe1ad1b62595cbeb0f3a46984b"
+    },
+    "osvi_ig/evaluate_policy.py": {
+      "published_path": "osvi_ig/evaluate_policy.py",
+      "published_sha256": "18baf18bb594a8f4da55d8e4ba7330098ce5f96cf817563ce829787976d1f42c"
+    },
+    "osvi_ig/policy.py": {
+      "published_path": "osvi_ig/policy.py",
+      "published_sha256": "c68d579057e99c1525d1bc9b784610fb48d433e46beb3ae0325d5a222307ff0f"
+    },
+    "osvi_ig/prepare.py": {
+      "published_path": "osvi_ig/prepare.py",
+      "published_sha256": "4e12aa0e4335216d413bed6b7ef723b33a668713e7c86807a3314d37253d0af8"
+    },
+    "osvi_robotwin/README.md": {
+      "published_path": "osvi_robotwin/README.md",
+      "published_sha256": "46aa09a2eb4e16041c7c394ee866d0d7ebe5fbaf5dbc38f4feed8a308f950b5f"
+    },
+    "osvi_robotwin/__init__.py": {
+      "published_path": "osvi_robotwin/__init__.py",
+      "published_sha256": "70a1c4932c0365af4e2e02da53ef143989c2bbdc71f8378a7778d4b15ad845d8"
+    },
+    "osvi_robotwin/bridge.py": {
+      "published_path": "osvi_robotwin/bridge.py",
+      "published_sha256": "30fee9edfde4b14c245e4bc11c7fba9e8775e0932a6f7b91e8e4fdf0681b7469"
+    },
+    "osvi_robotwin/data.py": {
+      "published_path": "osvi_robotwin/data.py",
+      "published_sha256": "a1b4cf9d537afeeeaa9497db6a60d492f55d56c913cadc667056f95198107404"
+    },
+    "osvi_robotwin/evaluation_bridge.py": {
+      "published_path": "osvi_robotwin/evaluation_bridge.py",
+      "published_sha256": "e66f63cee78d7569cca2e624ea0b084d49a56baf345172ff0e6a0a71096f61de"
+    },
+    "osvi_robotwin/model.py": {
+      "published_path": "osvi_robotwin/model.py",
+      "published_sha256": "f21e6e37a4db43f4c5845c6f248b51c0febd2d0c0c0f9be0e384777f8409d219"
+    },
+    "osvi_robotwin/policy.py": {
+      "published_path": "osvi_robotwin/policy.py",
+      "published_sha256": "5a7caa4bb878ca7b68af12f791a9d4cdcf85b61e20d339110a928df1de4aec09"
+    },
+    "osvi_robotwin/probe.py": {
+      "published_path": "osvi_robotwin/probe.py",
+      "published_sha256": "249d35a48682dc8d391c276fa287e601df1bd291e326205733310d0e0bfd2eb6"
+    },
+    "osvi_robotwin/train.py": {
+      "published_path": "osvi_robotwin/train.py",
+      "published_sha256": "27ebc73c4cfdc76c49b6ea0d0eaf4dd4ace17ebff114d6ca8898ab285a355d00"
+    }
+  },
   "publication_notes": [
     "Root README replaced with handoff index; original retained as SOURCE_README.md when present.",
     "Git ignore/attributes describe source-only publication.",
-    "ACT prepare accepts the frozen six-episode RGB exclusion contract before fitting statistics."
+    "ACT prepare accepts the frozen six-episode RGB exclusion contract before fitting statistics.",
+    "Published text is normalized to LF by .gitattributes; published SHA256 values describe Git blobs."
   ]
 }
