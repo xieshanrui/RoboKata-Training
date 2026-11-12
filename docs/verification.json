@@ -5,5 +5,8 @@
   "source_hashes": 3565,
   "dry_run_recipes": 12,
   "gpu_training_launched": false,
-  "fresh_public_clone": "Pending final publication verification; run tools/preflight.py after cloning."
+  "fresh_public_clone": true,
+  "clone_url": "https://github.com/xieshanrui/RoboKata-Training.git",
+  "verified_source_main_commit": "7856e7db3885a437e2eb70e1c83fbba36317e9a9",
+  "scope": "Public clone, pinned submodule identity, source SHA256, shell syntax, config expansion and command dry-run. No new GPU training or clean Linux installation."
 }
