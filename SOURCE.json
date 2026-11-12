@@ -22,10 +22,56 @@
     "lingbot_ig_text/train_probe.py": "242538a6048a0f8b4e766687776cf7206f5980dc2135db2a8d079c9d97ec8a69"
   },
   "upstream_licenses": "Retained in source; see THIRD_PARTY.md on main.",
-  "publication_changes": {},
+  "publication_changes": {
+    "lingbot_ig_text/README.md": {
+      "published_path": "lingbot_ig_text/README.md",
+      "published_sha256": "fe92f721ebfb9c4fec0f21ea7d9f9c120c2e7170f5025f70613f0a6f01d8a667"
+    },
+    "lingbot_ig_text/batching.py": {
+      "published_path": "lingbot_ig_text/batching.py",
+      "published_sha256": "79a1ad935f510e5de2c6b1845f666662393f52091aa78feb665c13aaca3fecb8"
+    },
+    "lingbot_ig_text/checkpoint.py": {
+      "published_path": "lingbot_ig_text/checkpoint.py",
+      "published_sha256": "69055340fefb7453a56f334ea312ca1c617701596dc41008046e938346decc05"
+    },
+    "lingbot_ig_text/data.py": {
+      "published_path": "lingbot_ig_text/data.py",
+      "published_sha256": "87fbfe137977575aeb81e96ed48aa68dcb9825b0ddccc7e7cf4be31b9be3ac5c"
+    },
+    "lingbot_ig_text/encode_text.py": {
+      "published_path": "lingbot_ig_text/encode_text.py",
+      "published_sha256": "2dba18111740fed7047f7f8fa18c873ef8575babf9437a78cabe64777a3a2c72"
+    },
+    "lingbot_ig_text/infer_probe.py": {
+      "published_path": "lingbot_ig_text/infer_probe.py",
+      "published_sha256": "58dd9692603667d00c9fd3542b50aef82554756c9e37e0278c17a402d3211f2e"
+    },
+    "lingbot_ig_text/padding_verify.py": {
+      "published_path": "lingbot_ig_text/padding_verify.py",
+      "published_sha256": "8ee28d7fa722fabcad8cffef1e404d5223679596207cb8b45f10ef1722d80d18"
+    },
+    "lingbot_ig_text/policy.py": {
+      "published_path": "lingbot_ig_text/policy.py",
+      "published_sha256": "6f65ffff8c16cf29b5b8dd6a7d98f31d53306df6cd720cca88a8872f8be5e923"
+    },
+    "lingbot_ig_text/prepare_upstream.py": {
+      "published_path": "lingbot_ig_text/prepare_upstream.py",
+      "published_sha256": "4fbd6de5b3b036a1d491c0c1ab447dd149fa1d5e747f0188e5ed122e513fdf6b"
+    },
+    "lingbot_ig_text/train.py": {
+      "published_path": "lingbot_ig_text/train.py",
+      "published_sha256": "2e58eff2c7b2b28cb95c6566c224b43008757f50ae5fbe8fa44018f31787a019"
+    },
+    "lingbot_ig_text/train_probe.py": {
+      "published_path": "lingbot_ig_text/train_probe.py",
+      "published_sha256": "20fa6e952c26db2edc386890acac7f2a91e7f329f6f56d6b9184c6958dc4ed48"
+    }
+  },
   "publication_notes": [
     "Root README replaced with handoff index; original retained as SOURCE_README.md when present.",
     "Git ignore/attributes describe source-only publication.",
-    "ACT prepare accepts the frozen six-episode RGB exclusion contract before fitting statistics."
+    "ACT prepare accepts the frozen six-episode RGB exclusion contract before fitting statistics.",
+    "Published text is normalized to LF by .gitattributes; published SHA256 values describe Git blobs."
   ]
 }
