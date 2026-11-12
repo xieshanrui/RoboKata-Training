@@ -86,13 +86,14 @@
     },
     "osvi_robotwin/train.py": {
       "published_path": "osvi_robotwin/train.py",
-      "published_sha256": "27ebc73c4cfdc76c49b6ea0d0eaf4dd4ace17ebff114d6ca8898ab285a355d00"
+      "published_sha256": "c4c3bcb925838809c9fdf648bb2b3ed9da64bab2295b9ceb1db1b7acd473889c"
     }
   },
   "publication_notes": [
     "Root README replaced with handoff index; original retained as SOURCE_README.md when present.",
     "Git ignore/attributes describe source-only publication.",
     "ACT prepare accepts the frozen six-episode RGB exclusion contract before fitting statistics.",
-    "Published text is normalized to LF by .gitattributes; published SHA256 values describe Git blobs."
+    "Published text is normalized to LF by .gitattributes; published SHA256 values describe Git blobs.",
+    "Audit: bind resume to RT/IG adapter and shared data helper identities; validate before overwriting run metadata; optimization unchanged."
   ]
 }

@@ -50,25 +50,32 @@ def main():
     config.update(getattr(dataset,'adaptation',{}))
     config['supervision']='native recorded action column; no IK/FK relabeling'
     source={str(f.relative_to(a.official)):sha(f) for f in a.official.rglob('*.py')}
-    local={f.name:sha(f) for f in Path(__file__).parent.glob('*.py')}
-    write(a.run/'config.json',dict(config=config,official_revision=REVISION,
-        official_files=source,local_files=local,prepared_sha256=sha(a.prepared),smoke_only=dataset.smoke_only))
+    from act_robotwin import data as shared_data, protocol as shared_protocol
+    local={f'osvi_robotwin/{f.name}':sha(f) for f in Path(__file__).parent.glob('*.py')}
+    local.update({f'act_robotwin/{Path(module.__file__).name}':sha(module.__file__)
+                  for module in (shared_data,shared_protocol)})
+    if a.dataset=='ig10k':
+        local.update({f'osvi_ig/{f.name}':sha(f) for f in (Path(__file__).parent.parent/'osvi_ig').glob('*.py')})
     step=0;start_epoch=0;start_batch=0
     if a.resume:
         c=torch.load(a.resume,map_location='cpu',weights_only=True)
         assert not c['smoke_only'] and not a.smoke_steps and c['config']==config
         assert c['prepared_sha256']==sha(a.prepared) and c['source_hashes']==source
+        if c.get('adapter_source_hashes')!=local:
+            raise ValueError('Checkpoint adapter identity is missing or changed; resume legacy checkpoints only with their frozen source')
         model.load_state_dict(c['model']);optim.load_state_dict(c['optimizer']);schedule.load_state_dict(c['scheduler'])
         step=c['step'];start_epoch=c['next_epoch'];start_batch=c['next_batch']
         torch.set_rng_state(c['rng']);torch.cuda.set_rng_state(c['cuda_rng'])
         ns=c['numpy_rng'];np.random.set_state((ns[0],np.array(ns[1],dtype=np.uint32),*ns[2:]))
         random.setstate(c['python_rng'])
     assert step<a.updates
+    write(a.run/'config.json',dict(config=config,official_revision=REVISION,
+        official_files=source,local_files=local,prepared_sha256=sha(a.prepared),smoke_only=dataset.smoke_only))
     torch.cuda.reset_peak_memory_stats()
     def save(epoch,next_batch):
         ns=np.random.get_state()
         c=dict(model=model.state_dict(),optimizer=optim.state_dict(),scheduler=schedule.state_dict(),
-            smoke_only=dataset.smoke_only,official_revision=REVISION,source_hashes=source,step=step,
+            smoke_only=dataset.smoke_only,official_revision=REVISION,source_hashes=source,adapter_source_hashes=local,step=step,
             config=config,prepared_sha256=sha(a.prepared),next_epoch=epoch,next_batch=next_batch,
             rng=torch.get_rng_state(),cuda_rng=torch.cuda.get_rng_state(),python_rng=random.getstate(),
             numpy_rng=(ns[0],ns[1].tolist(),*ns[2:]))
