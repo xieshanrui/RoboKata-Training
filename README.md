@@ -3,7 +3,7 @@
 交给协作者的 **RoboTwin 43→6 / IG-10K C15 训练代码集合**。`main` 管理固定子模块、数据版本、训练命令和预算；每个模型在本库同名分支维护。原工作仓库和服务器作业不受本仓影响。
 
 ```bash
-git clone https://github.com/xieshanrui/RoboKata-Training.git
+git clone --branch main --single-branch https://github.com/xieshanrui/RoboKata-Training.git
 cd RoboKata-Training
 git submodule update --init
 python tools/preflight.py

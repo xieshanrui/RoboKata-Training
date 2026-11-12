@@ -1,42 +1,53 @@
 [submodule "models/act"]
 	path = models/act
 	url = ./
+	shallow = true
 	branch = act
 [submodule "models/osvi"]
 	path = models/osvi
 	url = ./
+	shallow = true
 	branch = osvi-wm
 [submodule "models/lingbot"]
 	path = models/lingbot
 	url = ./
+	shallow = true
 	branch = lingbot-va
 [submodule "models/openpi"]
 	path = models/openpi
 	url = ./
+	shallow = true
 	branch = openpi
 [submodule "models/robokata"]
 	path = models/robokata
 	url = ./
+	shallow = true
 	branch = robokata
 [submodule "models/robokata_ig_fi"]
 	path = models/robokata_ig_fi
 	url = ./
+	shallow = true
 	branch = robokata-ig-fi
 [submodule "models/zerowam"]
 	path = models/zerowam
 	url = ./
+	shallow = true
 	branch = zero-wam
 [submodule "environments/robotwin"]
 	path = environments/robotwin
 	url = ./
+	shallow = true
 	branch = robotwin
 [submodule "environments/imitator_game"]
 	path = environments/imitator_game
 	url = ./
+	shallow = true
 	branch = imitator-game
 [submodule "third_party/osvi_wm"]
 	path = third_party/osvi_wm
 	url = https://github.com/raktimgg/osvi-wm.git
+	shallow = true
 [submodule "third_party/lingbot_va"]
 	path = third_party/lingbot_va
 	url = https://github.com/Robbyant/lingbot-va.git
+	shallow = true
