@@ -61,7 +61,7 @@
     },
     "lingbot_ig_text/train.py": {
       "published_path": "lingbot_ig_text/train.py",
-      "published_sha256": "2e58eff2c7b2b28cb95c6566c224b43008757f50ae5fbe8fa44018f31787a019"
+      "published_sha256": "c882e743e50fc5c4f354814a274438da1422a27cd6adaddb9d28c9aa1ba2fdbb"
     },
     "lingbot_ig_text/train_probe.py": {
       "published_path": "lingbot_ig_text/train_probe.py",
@@ -72,6 +72,7 @@
     "Root README replaced with handoff index; original retained as SOURCE_README.md when present.",
     "Git ignore/attributes describe source-only publication.",
     "ACT prepare accepts the frozen six-episode RGB exclusion contract before fitting statistics.",
-    "Published text is normalized to LF by .gitattributes; published SHA256 values describe Git blobs."
+    "Published text is normalized to LF by .gitattributes; published SHA256 values describe Git blobs.",
+    "Audit: allow normal CLI exits and preserve original failures if failure logging cannot complete; training math unchanged."
   ]
 }

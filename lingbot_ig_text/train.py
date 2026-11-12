@@ -150,9 +150,15 @@ def main():
 if __name__ == '__main__':
     try:
         main()
-    except BaseException:
+    except Exception:
         import traceback
-        settings = json.loads(Path(sys.argv[sys.argv.index('--config')+1]).read_text(encoding='utf-8'))
-        write(Path(settings['run_root'])/f'failure_rank{os.getenv("RANK","unknown")}.json',
-              dict(error=traceback.format_exc(), time=time.time()))
+        error = traceback.format_exc()
+        try:
+            settings = json.loads(Path(sys.argv[sys.argv.index('--config')+1]).read_text(encoding='utf-8'))
+            root = Path(settings['run_root'])
+            root.mkdir(parents=True, exist_ok=True)
+            write(root/f'failure_rank{os.getenv("RANK","unknown")}.json',
+                  dict(error=error, time=time.time()))
+        except Exception:
+            pass  # Failure reporting must not replace the original exception.
         raise
