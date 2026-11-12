@@ -1,0 +1,22 @@
+{
+  "world_size": 8,
+  "global_batch": 256,
+  "gradient_accumulation": 1,
+  "steps": 20000,
+  "warmup": 1000,
+  "lr_peak": 2.5e-05,
+  "lr_end": 2.5e-06,
+  "seed": 20261017,
+  "cpu_threads": 4,
+  "base_checkpoint": "/path/to/pi0_base/model.safetensors",
+  "tokenizer": "/path/to/pi0_base/paligemma_tokenizer.model",
+  "data": "/path/to/data",
+  "per_gpu_batch": 32,
+  "lr_decay_steps": 30000,
+  "demo_frames": 60,
+  "demo_sample_hz": 5,
+  "vision_frozen": true,
+  "demo_cache": "/path/to/raw_siglip_cache",
+  "demo_window_seconds": 1,
+  "demo_compression_layer": 2
+}
