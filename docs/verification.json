@@ -8,5 +8,6 @@
   "fresh_public_clone": true,
   "clone_url": "https://github.com/xieshanrui/RoboKata-Training.git",
   "verified_source_main_commit": "7856e7db3885a437e2eb70e1c83fbba36317e9a9",
-  "scope": "Public clone, pinned submodule identity, source SHA256, shell syntax, config expansion and command dry-run. No new GPU training or clean Linux installation."
+  "scope": "Original clone/static checks plus subsequent CPU audit; see latest_audit for changed component commits and limits. No GPU forward/backward validation.",
+  "latest_audit": "audit_20261112.json"
 }

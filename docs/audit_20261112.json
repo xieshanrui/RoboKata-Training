@@ -1,0 +1,82 @@
+{
+  "date": "2026-11-12",
+  "base_main_commit": "d1c3a3ebd68ba29b15795d9549bb323c0fde46a1",
+  "gpu_used": false,
+  "environment": "Existing isolated Linux Python environments; no clean installation performed",
+  "parse_only": "Actual argparse/tyro parsing, then exit before datasets, distributed initialization and updates",
+  "recipes": [
+    {
+      "name": "act_robotwin",
+      "passed": true
+    },
+    {
+      "name": "act_ig_c15",
+      "passed": false
+    },
+    {
+      "name": "osvi_robotwin",
+      "passed": true
+    },
+    {
+      "name": "osvi_ig10k",
+      "passed": true
+    },
+    {
+      "name": "lingbot_ig_c15",
+      "passed": true
+    },
+    {
+      "name": "segmented_pi0_robotwin",
+      "passed": true
+    },
+    {
+      "name": "segmented_pi0_ig10k",
+      "passed": true
+    },
+    {
+      "name": "pi05_robotwin",
+      "passed": true
+    },
+    {
+      "name": "robokata_robotwin_b1",
+      "passed": true
+    },
+    {
+      "name": "robokata_ig_a",
+      "passed": true
+    },
+    {
+      "name": "robokata_ig_fi",
+      "passed": true
+    },
+    {
+      "name": "zerowam_ig_c15",
+      "passed": true
+    }
+  ],
+  "remaining": [
+    {
+      "recipe": "act_ig_c15",
+      "status": "blocked in inspected environment",
+      "reason": "tensorboard is absent; full official LeRobot/training dependency chain remains unverified"
+    }
+  ],
+  "checkpoint_identity_guards": {
+    "act": "matching accepted; missing/changed rejected",
+    "osvi": "matching accepted; missing/changed rejected"
+  },
+  "reviewed_components": {
+    "act": "8a898f5a30f83c6ae02b64e8ce65200e0bff5fd5",
+    "osvi-wm": "23424213eca30eca60e07a4df7f8f00dfb4d51d3",
+    "lingbot-va": "80086ec218e6a4827890e2b44373f9fe8c1baebb",
+    "openpi": "5d5765170e1080e21db05c486b8546e682949bdb",
+    "robokata": "b0a491b5101913307f6ccf54a7f337b122427b22",
+    "robokata-ig-fi": "4bf43409fb21f2391e41c10de82db54bc0b6d20b",
+    "zero-wam": "39b99a4976a3ff3a62db6b47e9ad4b4ddb85e3ef",
+    "robotwin": "262e3821bb9b50c52c290b5b93be040382e8e98c",
+    "imitator-game": "cf07de8d610c58602678c612f170fa51c77d3560",
+    "osvi-wm-upstream": "ebd1fa7131078d10dbb101c8f0e3c9b3b86edb81",
+    "lingbot-va-upstream": "7c6ffa9bfc4b83582cafc860fab4c82cc7deeeeb"
+  },
+  "initialization_and_statistics_caveat": "RoboTwin B1 uses upstream published action_stats; train43-only provenance is not independently established."
+}

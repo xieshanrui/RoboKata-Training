@@ -30,3 +30,5 @@ python models/openpi/examples/segmented_demo/prepare_transformers.py --apply
 LingBot必须将固定上游源码复制到 `$LINGBOT_SOURCE`，在副本上执行一次 `prepare_upstream.py --mixed-batch`，见训练步骤。该脚本验证原文再修改，不能反复打补丁。它使FlashAttention按需导入，并加入混长序列掩码；不应因上游requirements包含flash_attn就无条件编译安装。
 
 训练前先做 `python tools/preflight.py` 和对应 `TRAIN_DRY_RUN=1 bash recipes/....sh`。再在分配的GPU上验证真实batch、损失、显存、检查点恢复；遇到OOM保留失败证据，不能静默改batch/梯度累计并宣称同一配方。
+
+激活对应环境后，可用 `python tools/preflight.py --profile act` 核对安装版本；另支持 `osvi`、`wam`、`openpi`。该命令不使用GPU。ACT清单已补齐IG backbone直接依赖的IPython。官方ACT IG需要单独的完整训练环境，当前审查在已有IG仿真环境发现缺少TensorBoard，完整依赖链仍未验证；不要把这套仿真环境或RT ACT清单当成已验证的IG ACT训练环境。

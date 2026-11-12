@@ -2,6 +2,8 @@
 
 以下命令从 `main` 根目录执行。完成数据/权重下载，激活对应独立环境，`source local.env`，为每个实验设置新的 `$RUN`、`$CONFIG`、缓存路径与 `CUDA_VISIBLE_DEVICES`。先执行dry-run再去掉 `TRAIN_DRY_RUN=1`。本库不自动恢复旧作业。
 
+实际启动检查与已知边界见 [模型审查](METHOD_AUDIT.md)。新ACT/OSVI训练的checkpoint包含适配源码身份；旧checkpoint使用原冻结源码恢复。官方ACT IG当前仅提供原入口，完整训练环境尚未验收。
+
 ## 预算索引
 
 | 配方脚本（recipes/） | GPU × 实际batch | 有限训练边界 | 来源性质 |

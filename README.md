@@ -2,6 +2,8 @@
 
 交给协作者的 **RoboTwin 43→6 / IG-10K C15 训练代码集合**。`main` 管理固定子模块、数据版本、训练命令和预算；每个模型在本库同名分支维护。原工作仓库和服务器作业不受本仓影响。
 
+先读 [运行与模型一致性审查](docs/METHOD_AUDIT.md)：11/12配方通过既有Linux环境的真实参数解析；官方ACT IG独立训练环境待补齐。本次未做整套GPU前后向验证。
+
 ```bash
 git clone --branch main --single-branch https://github.com/xieshanrui/RoboKata-Training.git
 cd RoboKata-Training
@@ -18,7 +20,7 @@ TRAIN_DRY_RUN=1 bash recipes/act_robotwin.sh
 
 | 模型 / 分支 | RoboTwin43→6 | IG C15 | 训练入口与性质 |
 |---|---|---|---|
-| ACT/DINOv2 · `act` | 本项目适配，实际训练10epoch | 官方实现；本项目未重训 | `act_robotwin.train` / IG官方ACT |
+| ACT/DINOv2 · `act` | 本项目适配，实际训练10epoch | 官方入口；独立训练环境待验证，本项目未重训 | `act_robotwin.train` / IG官方ACT |
 | OSVI-WM · `osvi-wm` | 原生EEF16适配，72k预算 | 原生joint16适配，72k预算 | `osvi_robotwin.train --dataset ...` |
 | LingBot-VA text · `lingbot-va` | 本项目未接入 | 原生全参，60epoch | `lingbot_ig_text/train.py`；human description |
 | 分段Demo π0 · `openpi` | 已接入并正式训练 | 已接入并正式训练 | `examples/segmented_demo/train.py` |

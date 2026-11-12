@@ -7,7 +7,7 @@
       "path": "models/act",
       "url": "https://github.com/xieshanrui/RoboKata-Training.git",
       "branch": "act",
-      "commit": "38c34922d55319104ce720c36a1f4b7fd21c8252",
+      "commit": "8a898f5a30f83c6ae02b64e8ce65200e0bff5fd5",
       "original_source_commit": "045d5806f91518fdaa7d1c8944efe050028b66d8",
       "entrypoints": [
         "act_robotwin/train.py",
@@ -19,7 +19,7 @@
       "path": "models/osvi",
       "url": "https://github.com/xieshanrui/RoboKata-Training.git",
       "branch": "osvi-wm",
-      "commit": "95843f652026460f751d0745928fcd4cffce58cd",
+      "commit": "23424213eca30eca60e07a4df7f8f00dfb4d51d3",
       "original_source_commit": "045d5806f91518fdaa7d1c8944efe050028b66d8",
       "entrypoints": [
         "osvi_robotwin/train.py",
@@ -31,7 +31,7 @@
       "path": "models/lingbot",
       "url": "https://github.com/xieshanrui/RoboKata-Training.git",
       "branch": "lingbot-va",
-      "commit": "736039802bd92f3325b0923e653209ee01e7cd4e",
+      "commit": "80086ec218e6a4827890e2b44373f9fe8c1baebb",
       "original_source_commit": "045d5806f91518fdaa7d1c8944efe050028b66d8",
       "entrypoints": [
         "lingbot_ig_text/train.py",
