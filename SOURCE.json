@@ -1,0 +1,31 @@
+{
+  "component": "lingbot",
+  "source_commit": "045d5806f91518fdaa7d1c8944efe050028b66d8",
+  "source_repository": "https://github.com/xieshanrui/RoboICL",
+  "source_subrepository": "robokata",
+  "published_as": "Isolated public source snapshot; original repositories and histories left unchanged.",
+  "selected_paths": [
+    "lingbot_ig_text"
+  ],
+  "excluded_editor_ci_notebooks": [],
+  "original_file_sha256": {
+    "lingbot_ig_text/README.md": "2d5fdb85dfbc59b1e73a2960bb97f160ee421dc7701353457e0245eed46f3e9e",
+    "lingbot_ig_text/batching.py": "8c0426bf283cd4b4641d79c88a11d57f95b6e7faf95db91f93f04ea72f99b498",
+    "lingbot_ig_text/checkpoint.py": "dd7bef9cdb612cf04a543a357a195db7ed8e205d8e55e7fb0ab53fb1b0fc45b6",
+    "lingbot_ig_text/data.py": "faec4b7d0b7d020fa7eb827258aaa8f8a9a3f5d68cfcbf98927baff94a7ff8ad",
+    "lingbot_ig_text/encode_text.py": "d8aaa5b5c9e88a05fd11dab701de63b47ce138e9022211067877b3cd3493d1ea",
+    "lingbot_ig_text/infer_probe.py": "46506c996f748bcd6f44b44adcf71ac95de5dcb67bb3863a7de1716239bd2e28",
+    "lingbot_ig_text/padding_verify.py": "8fe9ce1e3fcf613e3057e4c29a7d5958d3c87f88b5ac71a5b9cd444ebca175ab",
+    "lingbot_ig_text/policy.py": "bb57b6450f0fe98dc5dd20c9242f7e9a01c3ad7c5c790ebe5305338860967030",
+    "lingbot_ig_text/prepare_upstream.py": "a9e875db447b572b9c1f4558c39ab5dc75650e55fbbce50407ec8461566dc8c1",
+    "lingbot_ig_text/train.py": "d8e4c7c601c9fbf0d9c7c8202ef6108d4496c4cf053a503039323aba911ab6cb",
+    "lingbot_ig_text/train_probe.py": "242538a6048a0f8b4e766687776cf7206f5980dc2135db2a8d079c9d97ec8a69"
+  },
+  "upstream_licenses": "Retained in source; see THIRD_PARTY.md on main.",
+  "publication_changes": {},
+  "publication_notes": [
+    "Root README replaced with handoff index; original retained as SOURCE_README.md when present.",
+    "Git ignore/attributes describe source-only publication.",
+    "ACT prepare accepts the frozen six-episode RGB exclusion contract before fitting statistics."
+  ]
+}
